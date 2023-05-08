@@ -14,14 +14,17 @@
     </head>
     <body class="bg-warning">
             @if (Route::has('login'))
-                <nav class="navbar bg-dark">
+                <nav class="navbar navbar-expand-lg bg-dark d-flex">
+                    <div class="container">
+                        <img src="img/logoSinFondo.png" alt="">
+                    </div>
                     <div class="container">
                         @auth
-                        <a href="{{ url('/dashboard') }}" class="">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}" class="btn btn-outline-light">Dashboard</a>
                     @else
-                        <a href="{{ route('login') }}" class="text-white">Log in</a>
+                        <a href="{{ route('login') }}" class="btn btn-outline-light">Log in</a>
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="text-white">Register</a>
+                            <a href="{{ route('register') }}" class="btn btn-outline-light">Register</a>
                         @endif
                     @endauth
                     </div>
