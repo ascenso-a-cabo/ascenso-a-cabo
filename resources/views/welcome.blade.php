@@ -143,5 +143,15 @@
                     </div>
                 </div>
             </section>
+            <x-footer/>
     </body>
 </html>
+
+<style>
+    .hover{
+        transition: 0.5s;
+    }
+    .hover:hover{
+        transform: scale(1.1);
+    }
+    </style>
