@@ -96,6 +96,11 @@
   #tyc > a {
       color: black;
   }
+
+  #rss{
+      display: flex;
+      flex-direction: row;
+  }
   
   #masInfo > ul{
       list-style: none;

@@ -26,6 +26,10 @@ Route::get('/examenes', function () {
     return view('examenes');
 })->middleware(['auth', 'verified'])->name('examenes');
 
+Route::get('/comunidad', function () {
+    return view('comunidad');
+})->middleware(['auth', 'verified'])->name('comunidad');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
