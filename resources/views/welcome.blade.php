@@ -67,7 +67,7 @@
                             <div class="card mb-5 mb-xl-0 hover">
                                 <div class="card-body p-5">
                                     <div class="mb-3">
-                                        <span class="display-4 fw-bold">5€</span>
+                                        <span class="display-4 fw-bold">10€</span>
                                         <span class="text-muted">/ mes</span>
                                     </div>
                                     <ul class="list-unstyled mb-4">
