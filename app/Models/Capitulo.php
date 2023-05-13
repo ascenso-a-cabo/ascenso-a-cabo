@@ -9,6 +9,8 @@ class Capitulo extends Model
 {
     use HasFactory;
 
+    protected $table = 'capitulos';
+
     protected $fillable = [
         'nombre'
     ];

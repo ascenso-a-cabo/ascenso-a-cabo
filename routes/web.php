@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CapituloController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,6 +26,10 @@ Route::get('/dashboard', function () {
 Route::get('/examenes', function () {
     return view('examenes');
 })->middleware(['auth', 'verified'])->name('examenes');
+
+Route::resource('examenes', CapituloController::class)
+    ->only('index')
+    ->middleware(['auth', 'verified']);
 
 Route::get('/comunidad', function () {
     return view('comunidad');
