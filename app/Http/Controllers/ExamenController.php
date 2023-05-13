@@ -3,15 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\View\View;
 use App\Models\Capitulo;
 
-class CapituloController extends Controller
+class ExamenController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index(): View
+    public function index()
     {
         $capitulos = Capitulo::all();
         return view('examenes', compact('capitulos'));

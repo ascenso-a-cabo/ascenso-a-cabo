@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\CapituloController;
+use App\Http\Controllers\ExamenController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,7 +27,7 @@ Route::get('/examenes', function () {
     return view('examenes');
 })->middleware(['auth', 'verified'])->name('examenes');
 
-Route::resource('examenes', CapituloController::class)
+Route::resource('examenes', ExamenController::class)
     ->only('index')
     ->middleware(['auth', 'verified']);
 
