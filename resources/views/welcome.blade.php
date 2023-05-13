@@ -18,9 +18,9 @@
                     <div class="container">
                         <img src="img/logoSinFondo.png" alt="">
                     </div>
-                    <div class="container">
+                    <div class="d-flex justify-content-around px-4">
                         @auth
-                        <a href="{{ url('/dashboard') }}" class="btn btn-outline-light">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}" class="btn btn-outline-light px-4">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="btn btn-outline-light">Log in</a>
                         @if (Route::has('register'))
@@ -35,7 +35,7 @@
             </div>
             <section class="py-5 border-bottom" id="features">
                 <h3 class="d-flex justify-content-center fw-folder">Tecnología y los mejores test de oposiciones para conseguir tu plaza de Cabo</h3>
-                <div class="container px-5 my-5">
+                <div class="container my-5 d-flex justify-content-center">
                     <div class="row gx-5">
                         <div class="card col-lg-4 mb-5 mb-lg-0 hover bg-white px-5">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
