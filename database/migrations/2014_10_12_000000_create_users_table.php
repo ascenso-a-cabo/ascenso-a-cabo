@@ -23,6 +23,8 @@ return new class extends Migration
 
             $table->decimal('media_notas', 5, 2)->nullable();
 
+            $table->string('rol')->default('user');
+
             // Calcular la media de notas para cada usuario
             /*foreach (User::all() as $user) {
                 $media = $user->notas()->avg('nota');

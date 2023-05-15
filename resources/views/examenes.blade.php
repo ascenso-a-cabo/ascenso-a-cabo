@@ -28,7 +28,7 @@
                 <div>
                     @foreach ($capitulos as $capitulo)
                         <div class="bg-secondary text-white text-center pb-5">
-                                <h2>{{ $capitulo->nombre }}</h2>
+                            <h2>{{ $capitulo->nombre }}</h2>
                                 @foreach ($capitulo->bloques as $bloque)
                                     <div class="container bg-dark text-white mb-3 border border-5 rounded border-warning">
                                         <h4>{{ $bloque->nombre }}</h4>
