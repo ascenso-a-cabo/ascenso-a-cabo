@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use App\Models\User;
 
 return new class extends Migration
 {
@@ -19,7 +20,16 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
-        });
+
+            $table->decimal('media_notas', 5, 2)->nullable();
+
+            // Calcular la media de notas para cada usuario
+            /*foreach (User::all() as $user) {
+                $media = $user->notas()->avg('nota');
+                $user->media_notas = $media;
+                $user->save();
+                }*/
+            });
     }
 
     /**

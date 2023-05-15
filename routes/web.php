@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ExamenController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ComunidadController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,6 +35,10 @@ Route::resource('examenes', ExamenController::class)
 Route::get('/comunidad', function () {
     return view('comunidad');
 })->middleware(['auth', 'verified'])->name('comunidad');
+
+Route::resource('comunidad', ComunidadController::class)
+    ->only('index')
+    ->middleware(['auth', 'verified']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
