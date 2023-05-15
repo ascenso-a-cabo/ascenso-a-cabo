@@ -9,16 +9,16 @@
                                 <tr>
                                     <th scope="col">Nº</th>
                                     <th scope="col">Nombre</th>
-                                    <th scope="col">Nº de examenes realizados</th>
-                                    <th scope="col">Nota</th>
+                                    <th scope="col" class="text-center">Nº de examenes realizados</th>
+                                    <th scope="col">Nota Media</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach ($users as $user)
                                     <tr>
-                                        <td scope="row">{{ $user->id }}</td>
+                                        <td scope="row">{{ $loop->iteration }}</td>
                                         <td>{{ $user->name }}</td>
-                                        <td>{{ $user->numeroExamenes }}</td>
+                                        <td class="text-center">{{ $user->total_examenes }}</td>
                                         @if ($user->media_notas > 5)
                                             <td class="text-success">{{ $user->media_notas }}</td>
                                         @else
@@ -34,4 +34,4 @@
         </div>
     </div>
 </x-app-layout>
-<x-footer/>
+<x-footer/>    

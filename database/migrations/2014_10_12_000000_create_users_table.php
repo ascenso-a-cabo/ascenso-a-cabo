@@ -22,9 +22,10 @@ return new class extends Migration
             $table->timestamps();
 
             $table->decimal('media_notas', 5, 2)->nullable();
+            $table->integer('total_examenes')->nullable();
 
             $table->string('rol')->default('user');
-            
+
             });
     }
 

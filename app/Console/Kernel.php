@@ -17,8 +17,13 @@ class Kernel extends ConsoleKernel
 
         $schedule->call(function () {
             foreach (User::all() as $user){
+                // Calculamos la media de notas de cada usuario
                 $media = $user->notas()->avg('nota');
                 $user->media_notas = $media;
+                // Calculamos el total de examenes de cada usuario
+                $total = $user->notas()->count();
+                $user->total_examenes = $total;
+                // Guardamos los cambios
                 $user->save();
             };
         })->twiceDailyAt('00:00', '12:00');

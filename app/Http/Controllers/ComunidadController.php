@@ -13,7 +13,7 @@ class ComunidadController extends Controller
     public function index()
     {
         //
-        $users = User::all();
+        $users = User::orderByDesc('media_notas')->orderByDesc('total_examenes')->get();
         return view('comunidad', compact('users'));
     }
 
