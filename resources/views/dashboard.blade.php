@@ -42,7 +42,12 @@
                             <div class="card text-dark bg-light mb-3 text-center col-4 hover" style="max-width: 18rem;">
                                 <div class="card-header"><b>Media de {{ Auth::user()->name }}</b></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">  / 10</h5>
+                                    @if (Auth::user()->media_notas > 5)
+                                        <h5 class="card-title text-sucess"> {{ Auth::user()->media_notas }} / 10</h5>
+                                    @else
+                                    <h5 class="card-title text-danger"> {{ Auth::user()->media_notas }} / 10</h5>
+                                    @endif
+                                    
                                     <p class="card-text">A contar desde la fecha de publicacion de la presente convocatoria</p>
                                 </div>
                             </div>
@@ -58,7 +63,7 @@
                             <div class="card text-dark bg-light mb-3 text-center col-4 hover" style="max-width: 18rem;">
                                 <div class="card-header"><b>Nº de examenes realizados</b></div>
                                 <div class="card-body">
-                                    <h5 class="card-title"></h5>
+                                    <h5 class="card-title">{{ Auth::user()->total_examenes }}</h5>
                                     <p class="card-text">A contar desde la fecha de publicacion de la presente convocatoria</p>
                                 </div>
                             </div>

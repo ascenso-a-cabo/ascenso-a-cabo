@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ExamenController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ComunidadController;
@@ -24,20 +25,28 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/examenes', function () {
+/*Route::get('/examenes', function () {
     return view('examenes');
-})->middleware(['auth', 'verified'])->name('examenes');
+})->middleware(['auth', 'verified'])->name('examenes');*/
 
 Route::resource('examenes', ExamenController::class)
     ->only('index')
     ->middleware(['auth', 'verified']);
 
-Route::get('/comunidad', function () {
+/*Route::get('/comunidad', function () {
     return view('comunidad');
-})->middleware(['auth', 'verified'])->name('comunidad');
+})->middleware(['auth', 'verified'])->name('comunidad');*/
 
 Route::resource('comunidad', ComunidadController::class)
     ->only('index')
+    ->middleware(['auth', 'verified']);
+
+/*Route::get('/comments', function () {
+    return view('comments');
+})->middleware(['auth', 'verified'])->name('comments');*/
+
+Route::resource('comments', CommentController::class)
+    ->only('index', 'show', 'create', 'store', 'edit', 'update', 'destroy')
     ->middleware(['auth', 'verified']);
 
 Route::middleware('auth')->group(function () {
