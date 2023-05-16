@@ -19,7 +19,7 @@
                         {{ __('Examenes') }}
                     </x-nav-link>
                     <x-nav-link :href="route('comunidad.index')" :active="request()->routeIs('comunidad')">
-                        {{ __('Comunidad') }}
+                        {{ __('Top Score') }}
                     </x-nav-link>
                 </div>
             </div>
