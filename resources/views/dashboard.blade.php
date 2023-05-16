@@ -1,6 +1,8 @@
 @php
     use App\Models\Estadistica;
     $estadisticas = Estadistica::find(1);
+    $fecha = \Carbon\Carbon::now();
+    $fecha = $fecha->format('d/m/Y');
 @endphp
 <x-app-layout>
      <div class="py-12">
@@ -11,7 +13,7 @@
                 </div>
                 <div class="d-flex justify-content-around align-items-center pt-4 pb-4 bg-warning form-floating">
                     <div>
-                    <h1 class="text-dark">Fecha:</h1><h2 id="fecha"></h2>
+                    <h1 class="text-dark">Fecha:</h1><h2 id="fecha">{{ $fecha }}</h2>
                     </div>
                     <div class="end-0">
                         <img src="img/aspaBorgona.gif" alt="" class="img-fluid">
