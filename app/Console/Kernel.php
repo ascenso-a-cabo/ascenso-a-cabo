@@ -26,6 +26,7 @@ class Kernel extends ConsoleKernel
                 // Guardamos los cambios
                 $user->save();
             };
+            exec('php artisan app:actualizar-estadisticas');
         })->twiceDailyAt('00:00', '12:00');
     }
 

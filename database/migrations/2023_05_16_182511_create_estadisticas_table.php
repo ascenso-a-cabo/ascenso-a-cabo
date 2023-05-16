@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('estadisticas', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->integer('media_total_nota');
-            $table->integer('media_examenes_realizados');
+            $table->decimal('media_total_nota', 5, 2)->nullable();
+            $table->decimal('media_examenes_realizados', 5, 2)->nullable();
         });
     }
 
