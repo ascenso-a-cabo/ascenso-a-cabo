@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\CommentController;
+use App\Http\Controllers\ChirpController;
 use App\Http\Controllers\ExamenController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ComunidadController;
@@ -45,8 +45,8 @@ Route::resource('comunidad', ComunidadController::class)
     return view('comments');
 })->middleware(['auth', 'verified'])->name('comments');*/
 
-Route::resource('comments', CommentController::class)
-    ->only('index', 'show', 'create', 'store', 'edit', 'update', 'destroy')
+Route::resource('chirps', ChirpController::class)
+    ->only(['index', 'store'])
     ->middleware(['auth', 'verified']);
 
 Route::middleware('auth')->group(function () {

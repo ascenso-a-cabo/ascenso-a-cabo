@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use GuzzleHttp\Psr7\Response;
-use Illuminate\Contracts\View\View;
+use App\Models\Chirp;
 use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
 
-class CommentController extends Controller
+class ChirpController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,9 @@ class CommentController extends Controller
     public function index()
     {
         //
-
-        return view('comments');
+        return view('chirps.index', [
+            'chirps' => Chirp::with('user')->latest()->get(),
+        ]);
     }
 
     /**
@@ -29,15 +30,22 @@ class CommentController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(Request $request): RedirectResponse
     {
         //
+        $validated = $request->validate([
+            'message' => 'required|string|max:255',
+        ]);
+ 
+        $request->user()->chirps()->create($validated);
+ 
+        return redirect(route('chirps.index'));
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Chirp $chirp)
     {
         //
     }
@@ -45,7 +53,7 @@ class CommentController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Chirp $chirp)
     {
         //
     }
@@ -53,7 +61,7 @@ class CommentController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Chirp $chirp)
     {
         //
     }
@@ -61,7 +69,7 @@ class CommentController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Chirp $chirp)
     {
         //
     }

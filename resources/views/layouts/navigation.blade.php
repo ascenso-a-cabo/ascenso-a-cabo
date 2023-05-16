@@ -21,7 +21,7 @@
                     <x-nav-link :href="route('comunidad.index')" :active="request()->routeIs('comunidad')">
                         {{ __('Top Score') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('comments.index')" :active="request()->routeIs('comments')">
+                    <x-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps')">
                         {{ __('Chat') }}
                     </x-nav-link>
                 </div>
@@ -85,7 +85,7 @@
             <x-responsive-nav-link :href="route('comunidad.index')" :active="request()->routeIs('comunidad')">
                 {{ __('Top Score') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('comments.index')" :active="request()->routeIs('comments')">
+            <x-responsive-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps')">
                 {{ __('Chat') }}
             </x-responsive-nav-link>
         </div>

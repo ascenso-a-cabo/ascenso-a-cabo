@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\Chirp;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -28,7 +30,8 @@ class DatabaseSeeder extends Seeder
 
             ProvinciasSeeder::class,
 
-            UsersSeeder::class
+            UsersSeeder::class,
+            ChirpsSeeder::class
         ]);
     }
 }
