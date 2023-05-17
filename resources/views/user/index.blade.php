@@ -4,7 +4,7 @@
             <div class="dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     <h3>Orden de los usuarios</h3>
-                    <p>Esta tabla se actualiza diariamente, a las 00:00 y a las 12:00</p>
+                    <p>Esta tabla se actualiza cada 5 minutos</p>
                     <p>El orden de los usuarios es de nota media mayor a nota media menor</p>
                     <p>Si dos usuarios tienen la misma nota, se ordenará primero el que más examenes haya realizado</p>
                     <div class="d-flex align-items-center justify-content-around bg-dark">

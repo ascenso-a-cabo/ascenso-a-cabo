@@ -5,6 +5,8 @@ namespace App\Console;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use App\Models\User;
+use App\Console\Commands\ActualizarEstadisticas;
+use App\Console\Commands\ActualizarEstadisticasUsuarios;
 
 class Kernel extends ConsoleKernel
 {
@@ -15,19 +17,15 @@ class Kernel extends ConsoleKernel
     {
         // Funcion que se ejecuta cada 12 horas para actualizar la media de notas de los usuarios
 
-        $schedule->call(function () {
-            foreach (User::all() as $user){
-                // Calculamos la media de notas de cada usuario
-                $media = $user->notas()->avg('nota');
-                $user->media_notas = $media;
-                // Calculamos el total de examenes de cada usuario
-                $total = $user->notas()->count();
-                $user->total_examenes = $total;
-                // Guardamos los cambios
-                $user->save();
-            };
-            exec('php artisan app:actualizar-estadisticas');
-        })->twiceDailyAt('00:00', '12:00');
+        // Llamada al comando "actualizar-estadisticas"
+    $schedule->call(function () {
+        $this->call('app:actualizar-estadisticas');
+    })->everyFiveMinutes();
+
+    // Llamada al comando "actualizar-estadisticas-usuarios"
+    $schedule->call(function () {
+        $this->call('app:actualizar-estadisticas-usuarios');
+    })->everyFiveMinutes();
     }
 
     /**
