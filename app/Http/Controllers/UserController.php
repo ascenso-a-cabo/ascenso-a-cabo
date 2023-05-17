@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 
-class ComunidadController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class ComunidadController extends Controller
     {
         //
         $users = User::orderByDesc('media_notas')->orderByDesc('total_examenes')->get();
-        return view('comunidad', compact('users'));
+        return view('user.index', compact('users'));
     }
 
     /**
@@ -39,6 +39,9 @@ class ComunidadController extends Controller
     public function show(string $id)
     {
         //
+        $users = User::findOrFail($id);
+        $provincia = $users->provincia;
+        return view('user.show', compact('users', 'provincia'));
     }
 
     /**

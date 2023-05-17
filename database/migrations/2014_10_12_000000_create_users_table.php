@@ -23,6 +23,7 @@ return new class extends Migration
 
             $table->decimal('media_notas', 5, 2)->nullable();
             $table->integer('total_examenes')->nullable();
+            $table->string('provincia')->nullable();
 
             $table->string('rol')->default('user');
 

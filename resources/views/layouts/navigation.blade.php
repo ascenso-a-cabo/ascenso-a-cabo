@@ -18,7 +18,7 @@
                     <x-nav-link :href="route('examenes.index')" :active="request()->routeIs('examenes')">
                         {{ __('Examenes') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('comunidad.index')" :active="request()->routeIs('comunidad')">
+                    <x-nav-link :href="route('user.index')" :active="request()->routeIs('user')">
                         {{ __('Top Score') }}
                     </x-nav-link>
                     <x-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps')">
@@ -82,7 +82,7 @@
             <x-responsive-nav-link :href="route('examenes.index')" :active="request()->routeIs('examenes')">
                 {{ __('Examenes') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('comunidad.index')" :active="request()->routeIs('comunidad')">
+            <x-responsive-nav-link :href="route('user.index')" :active="request()->routeIs('user')">
                 {{ __('Top Score') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps')">

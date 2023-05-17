@@ -23,6 +23,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'media_notas',
+        'total_examenes',
+        'provincia',
     ];
 
     /**
@@ -44,10 +47,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function provincias()
+    /*public function provincias()
     {
         return $this->belongsToMany(Provincia::class);
-    }
+    }*/
 
     public function notas()
     {

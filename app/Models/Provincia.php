@@ -16,8 +16,8 @@ class Provincia extends Model
 
     protected $table = 'provincias';
 
-    public function users()
+    /*public function users()
     {
         return $this->belongsToMany(User::class);
-    }
+    }*/
 }

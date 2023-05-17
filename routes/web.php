@@ -3,7 +3,7 @@
 use App\Http\Controllers\ChirpController;
 use App\Http\Controllers\ExamenController;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\ComunidadController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,8 +37,8 @@ Route::resource('examenes', ExamenController::class)
     return view('comunidad');
 })->middleware(['auth', 'verified'])->name('comunidad');*/
 
-Route::resource('comunidad', ComunidadController::class)
-    ->only('index')
+Route::resource('user', UserController::class)
+    ->only(['index', 'show'])
     ->middleware(['auth', 'verified']);
 
 /*Route::get('/comments', function () {

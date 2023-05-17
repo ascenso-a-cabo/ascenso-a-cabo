@@ -21,7 +21,7 @@
                                 @foreach ($users as $user)
                                     <tr>
                                         <td scope="row">{{ $loop->iteration }}</td>
-                                        <td>{{ $user->name }}</td>
+                                        <td> <a href="{{ route('user.show', ['user' => $user->id])}}" class="text-white">{{ $user->name }}</a></td>
                                         <td class="text-center">{{ $user->total_examenes }}</td>
                                         @if ($user->media_notas > 5)
                                             <td class="text-success">{{ $user->media_notas }}</td>

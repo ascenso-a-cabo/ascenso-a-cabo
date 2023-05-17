@@ -38,6 +38,20 @@
 
             <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
         </div>
+        <!-- Provincia -->
+        <div class="mt-4">
+            <label for="provincia" class="form-label text-white">Provincia a la que opositas</label>
+            <select id="provincia" class="form-select" name="provincia" required>
+                <option value="" selected disabled>Selecciona una provincia</option>
+                @foreach ($provincias as $provincia)
+                    <option value="{{ $provincia->nombre }}">{{ $provincia->nombre }}</option>
+                @endforeach
+            </select>
+            @error('provincia')
+                <div class="text-danger">{{ $message }}</div>
+            @enderror
+        </div>
+        
 
         <div class="flex items-center justify-end mt-4">
             <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('login') }}">
