@@ -47,6 +47,17 @@
             @endif
         </div>
 
+        <div>
+            <x-input-label for="provincia" :value="__('Provincia')" />
+            <select id="provincia" name="provincia"  class="form-select mt-1 block w-full bg-primary-subtle" :value="old('provincia', $user->provincia)" required autofocus autocomplete="provincia">
+                <option value="" selected disabled>{{ $user->provincia }}</option>
+                @foreach ($provincias as $provincia)
+                    <option value="{{ $provincia->nombre }}">{{ $provincia->nombre }}</option>
+                @endforeach
+            </select>
+            <x-input-error class="mt-2" :messages="$errors->get('provincia')" />
+        </div>
+
         <div class="flex items-center gap-4">
             <x-primary-button class="btn btn-outline-light">{{ __('Guardar') }}</x-primary-button>
 
@@ -57,7 +68,7 @@
                     x-transition
                     x-init="setTimeout(() => show = false, 2000)"
                     class="text-sm text-gray-600 dark:text-gray-400"
-                >{{ __('Saved.') }}</p>
+                >{{ __('Guardado.') }}</p>
             @endif
         </div>
     </form>
