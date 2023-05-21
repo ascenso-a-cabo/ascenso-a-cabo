@@ -3,9 +3,8 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 
-class Bloque extends Model
+class Bloque extends ApiModelFunctions
 {
     use HasFactory;
 
@@ -15,11 +14,19 @@ class Bloque extends Model
         'nombre'
     ];
 
-    public function capitulos(){
+    /**
+     * Get the capitulo that owns the bloque.
+     */
+    public function capitulos()
+    {
         return $this->belongsTo(Capitulo::class);
     }
 
-    public function temas(){
+    /**
+     * Get the temas associated with the bloque.
+     */
+    public function temas()
+    {
         return $this->hasMany(Tema::class);
     }
 }

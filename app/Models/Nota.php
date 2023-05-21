@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Nota extends Model
+class Nota extends ApiModelFunctions
 {
     use HasFactory;
 
@@ -15,11 +15,13 @@ class Nota extends Model
 
     protected $table = 'notas';
 
-    public function users(){
+    public function users()
+    {
         return $this->belongsTo(User::class);
     }
 
-    public function examenes(){
+    public function examenes()
+    {
         return $this->belongsTo(Examen::class);
     }
 }

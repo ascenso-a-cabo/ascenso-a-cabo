@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Pregunta extends Model
+class Pregunta extends ApiModelFunctions
 {
     use HasFactory;
 
@@ -16,7 +16,8 @@ class Pregunta extends Model
 
     protected $table = 'preguntas';
 
-    public function temas(){
+    public function temas()
+    {
         return $this->belongsTo(Tema::class);
     }
 
