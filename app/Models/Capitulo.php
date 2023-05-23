@@ -3,19 +3,20 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 
-class Capitulo extends Model
+class Capitulo extends ApiModelFunctions
 {
     use HasFactory;
 
+    public mixed $nombre;
     protected $table = 'capitulos';
 
     protected $fillable = [
         'nombre'
     ];
 
-    public function bloques(){
-        return $this->hasMany(Bloque::class);
+    public function bloques()
+    {
+        return $this->hasMany(ApiModelFunctions::class);
     }
 }

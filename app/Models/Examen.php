@@ -3,9 +3,8 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 
-class Examen extends Model
+class Examen extends ApiModelFunctions
 {
     use HasFactory;
 
@@ -14,7 +13,8 @@ class Examen extends Model
 
     protected $table = 'examenes';
 
-    public function temas(){
+    public function temas()
+    {
         return $this->belongsTo(Tema::class);
     }
 
