@@ -91,6 +91,58 @@ class PreguntasSeeder extends Seeder
             ['id' => 60, 'enunciado' => 'RR.OO. Art. 101. Competencia en la actuación. (Solo una parte de esta frase dividida en tres partes es correcta).', 'tema_id' => 1],
             ['id' => 61, 'enunciado' => 'RR.OO. Art. 103. Prestigio de las Fuerzas Armadas. Apoyo a las Fuerzas y Cuerpo de Seguridad. Cuando se le asignen misiones de colaboración y apoyo a las Fuerzas y apoyo a las fuerzas y cuerpos de seguridad para ____________del libre
             ejercicio de los derechos y libertades para garantizar la seguridad ciudadana, pondrá___________ en el cumplimiento de las tareas asignadas.', 'tema_id' => 1],
+            ['id' => 62, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 1. La seguridad en las FAS…', 'tema_id' => 2],
+            ['id' => 63, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 2. Definiciones. A efectos de estas
+            normas:', 'tema_id' => 2],
+            ['id' => 64, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 3. Ámbito de aplicación. ¿Qué
+            seguridad NO se rige por su propia normativa?', 'tema_id' => 2],
+            ['id' => 65, 'enunciado' => 'Señalar la falsa. Seguridad en las FAS. RD.194/2010. ART. 4. La seguridad en las FAS…', 'tema_id' => 2],
+            ['id' => 66, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 5. Zonas de seguridad exterior de las
+            unidades…', 'tema_id' => 2],
+            ['id' => 67, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 5. Zonas de seguridad exterior de las
+            unidades.', 'tema_id' => 2],
+            ['id' => 68, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 6. Seguridad en el interior de las
+            unidades…', 'tema_id' => 2],
+            ['id' => 69, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 6. Seguridad en el interior de las
+            unidades.', 'tema_id' => 2],
+            ['id' => 70, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 7. Responsable de la seguridad…', 'tema_id' => 2],
+            ['id' => 71, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 7. Responsable de la seguridad cuando
+            en una base se alojen varias unidades…', 'tema_id' => 2],
+            ['id' => 72, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 7. Responsable de la seguridad…', 'tema_id' => 2],
+            ['id' => 73, 'enunciado' => 'Completa la pregunta. Seguridad en las FAS. RD.194/2010. ART. 8. Formación. Los miembros de las FAS
+            recibirán la formación y preparación adecuadas con el fin de capacitarles en el
+            grado necesario para_______…', 'tema_id' => 2],
+            ['id' => 74, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 8. Formación.', 'tema_id' => 2],
+            ['id' => 75, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 9. Plan de seguridad. La clasificación
+            de este documento, sin tener en cuenta la clasificación de algunos de sus
+            apartados, será:', 'tema_id' => 2],
+            ['id' => 76, 'enunciado' => 'Señala la falsa. Seguridad en las FAS. RD.194/2010. ART. 9. Plan de seguridad.', 'tema_id' => 2],
+            ['id' => 77, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 11. Colaboración de la Seguridad
+            privada.', 'tema_id' => 2],
+            ['id' => 78, 'enunciado' => 'Señala la falsa. Seguridad en las FAS. RD.194/2010. ART. 14. Guardia de Seguridad.', 'tema_id' => 2],
+            ['id' => 79, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 14. Guardia de Seguridad.', 'tema_id' => 2],
+            ['id' => 80, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 15. Carácter de los componentes de la
+            guardia de seguridad.', 'tema_id' => 2],
+            ['id' => 81, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 17. Duración de la guardia de
+            seguridad.', 'tema_id' => 2],
+            ['id' => 82, 'enunciado' => 'Señala la falsa. Seguridad en las FAS. RD.194/2010. ART. 21. Cabo de la guardia...', 'tema_id' => 2],
+            ['id' => 83, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 22. Tropa y marinería de guardia.', 'tema_id' => 2],
+            ['id' => 84, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 23. Transmisión de órdenes. ¿Quién No
+            puede transmitirle las órdenes a la tropa y marinería?', 'tema_id' => 2],
+            ['id' => 85, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 25. Obligaciones del centinela.', 'tema_id' => 2],
+            ['id' => 86, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART.26. puesto de centinela.', 'tema_id' => 2],
+            ['id' => 87, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 27. Patrullas.', 'tema_id' => 2],
+            ['id' => 88, 'enunciado' => 'Señala la falsa. Seguridad en las FAS. RD.194/2010. ART. 28. Vigilantes.', 'tema_id' => 2],
+            ['id' => 89, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 29. De la policía militar, naval o aérea.', 'tema_id' => 2],
+            ['id' => 90, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 30. Cometidos de la PM.', 'tema_id' => 2],
+            ['id' => 91, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART.31. Apoyo entre policías.', 'tema_id' => 2],
+            ['id' => 92, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 32. Intervención ante delitos
+            flagrantes .¿Cuándo pueden intervenir.?', 'tema_id' => 2],
+            ['id' => 93, 'enunciado' => 'Seguridad en las FAS. O.M. 50/2011. Art. 80. Guardias de seguridad.', 'tema_id' => 2],
+            ['id' => 94, 'enunciado' => 'Seguridad en las FAS. O.M. 50/2011. Art. 82. Composición de una guardia de
+            seguridad.', 'tema_id' => 2],
+            ['id' => 95, 'enunciado' => 'Seguridad en las FAS. O.M. 50/2011 ART.86. Cabo de guardia.', 'tema_id' => 2],
+            ['id' => 96, 'enunciado' => '', 'tema_id' => 3],
         ]);
     }
 }
