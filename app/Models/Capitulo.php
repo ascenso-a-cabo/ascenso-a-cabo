@@ -8,7 +8,19 @@ class Capitulo extends ApiModelFunctions
 {
     use HasFactory;
 
-    public mixed $nombre;
+    //Arreglar el problema de que no se puede asignar un valor por defecto a un atributo de tipo string
+
+    protected string $nombre = ''; // Inicializar con un valor predeterminado
+
+    public function __construct(array $attributes = [])
+    {
+        parent::__construct($attributes);
+
+        $this->nombre = ''; // Asignar un valor en el constructor si es necesario
+    }
+
+    //Fin de la solución
+
     protected $table = 'capitulos';
 
     protected $fillable = [
@@ -17,6 +29,6 @@ class Capitulo extends ApiModelFunctions
 
     public function bloques()
     {
-        return $this->hasMany(ApiModelFunctions::class);
+        return $this->hasMany(Bloque::class);
     }
 }

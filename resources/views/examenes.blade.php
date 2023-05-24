@@ -28,10 +28,10 @@
                 <div>
                     @foreach ($capitulos as $capitulo)
                         <div class="bg-secondary text-white text-center pb-5">
-                            <h2>{{ $capitulo->nombre }}</h2>
+                            <h2>Capitulo: {{ $capitulo->nombre }}</h2>
                                 @foreach ($capitulo->bloques as $bloque)
                                     <div class="container bg-dark text-white mb-3 border border-5 rounded border-warning">
-                                        <h4>{{ $bloque->nombre }}</h4>
+                                        <h4>Bloque: {{ $bloque->nombre }}</h4>
                                         <div class="d-flex justify-content-around flex-wrap">
                                             @foreach ($bloque->temas as $tema)
                                                 <div class="col col-md-4 card text-center border-dark mb-3 hover text-dark"  style="width: 18rem;">

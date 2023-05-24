@@ -18,7 +18,7 @@ class Tema extends ApiModelFunctions
 
     public function bloques()
     {
-        return $this->belongsTo(ApiModelFunctions::class);
+        return $this->belongsTo(Bloque::class);
     }
 
     public function examenes()
