@@ -13,6 +13,11 @@
         @vite(['resources/js/app.js'])
     </head>
     <body class="bg-warning">
+  <!-- Banner de cookies -->
+        <div id="cookie-banner" class="text-center">
+            <p>Este sitio web utiliza cookies. Al continuar navegando, aceptas nuestro uso de cookies.</p>
+            <button id="cookie-accept" class="btn btn-light">Aceptar</button>
+        </div>
             @if (Route::has('login'))
                 <nav class="navbar navbar-expand-lg bg-dark d-flex">
                     <div class="container">
@@ -154,4 +159,43 @@
     .hover:hover{
         transform: scale(1.1);
     }
-    </style>
+    #cookie-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      display: none;
+    }
+    
+    #cookie-banner p {
+      margin: 0;
+    }
+</style>
+<script>
+     // Función para mostrar el banner de cookies después de 3 segundos
+     function showCookieBanner() {
+      setTimeout(function() {
+        document.getElementById('cookie-banner').style.display = 'block';
+      }, 3000);
+    }
+
+    // Función para ocultar el banner de cookies al hacer clic en el botón de aceptar
+    function acceptCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      // Aquí puedes agregar tu lógica para guardar la aceptación de cookies en una cookie o en el almacenamiento local si lo deseas
+    }
+
+    // Evento de carga de la página
+    window.addEventListener('load', function() {
+      showCookieBanner();
+    });
+
+    // Evento de clic en el botón de aceptar cookies
+    document.getElementById('cookie-accept').addEventListener('click', function() {
+      acceptCookies();
+    });
+  </script>
