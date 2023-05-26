@@ -104,5 +104,24 @@
   
   #masInfo > ul{
       list-style: none;
-  }</style>
+  }
+
+@media only screen and (max-width: 600px) {
+  #parte1, #parte2 {
+    flex-direction: column;
+    align-items: center;
+  }
   
+  #tyc {
+    width: 100%;
+  }
+  
+  #tyc > a {
+    margin-bottom: 10px;
+  }
+  
+  #rss {
+    justify-content: center;
+  }
+}
+</style>
