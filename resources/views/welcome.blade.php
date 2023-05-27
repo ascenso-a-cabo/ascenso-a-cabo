@@ -15,7 +15,8 @@
     <body class="bg-warning">
   <!-- Banner de cookies -->
         <div id="cookie-banner" class="text-center">
-            <p>Este sitio web utiliza cookies. Al continuar navegando, aceptas nuestro uso de cookies.</p>
+            <h3>Este sitio web se ha realizado como Trabajo Final de Grado para el CIFP Borja Moll. Todo lo que ve aqui es una simulacion operativa de una página real.</h3>
+            <p>Este sitio web utiliza cookies. Al continuar navegando, aceptas nuestro uso de cookies, y comprendo que el sitio web es una simulacion llevada a cabo como proyecto final.</p>
             <button id="cookie-accept" class="btn btn-light">Aceptar</button>
         </div>
             @if (Route::has('login'))
