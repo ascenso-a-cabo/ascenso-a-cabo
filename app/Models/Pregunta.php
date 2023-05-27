@@ -16,9 +16,14 @@ class Pregunta extends ApiModelFunctions
 
     protected $table = 'preguntas';
 
-    public function temas()
+    /*public function temas()
     {
         return $this->belongsTo(Tema::class);
+    }*/
+
+    public function bloques()
+    {
+        return $this->belongsTo(Bloque::class);
     }
 
     public function respuestas()

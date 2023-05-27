@@ -25,8 +25,14 @@ class Bloque extends ApiModelFunctions
     /**
      * Get the temas associated with the bloque.
      */
+    
     public function temas()
     {
         return $this->hasMany(Tema::class);
+    }
+
+    public function preguntas()
+    {
+        return $this->hasMany(Pregunta::class);
     }
 }

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('enunciado');
             $table->integer('aciertos')->default(0);
             $table->integer('fallos')->default(0);
-            $table->foreignId('tema_id')->constrained('temas');
+            $table->foreignId('bloque_id')->constrained('bloques');
         });
     }
 
