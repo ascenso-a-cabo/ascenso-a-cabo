@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('preguntas', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('enunciado');
+            $table->text('enunciado');
             $table->integer('aciertos')->default(0);
             $table->integer('fallos')->default(0);
             $table->foreignId('bloque_id')->constrained('bloques');

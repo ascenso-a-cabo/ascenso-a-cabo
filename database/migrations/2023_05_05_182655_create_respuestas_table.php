@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('respuestas', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('texto');
+            $table->text('texto');
             $table->boolean('valor');
             $table->foreignId('pregunta_id')->constrained('preguntas');
         });

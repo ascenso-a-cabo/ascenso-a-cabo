@@ -27,6 +27,9 @@ class BloquesSeeder extends Seeder
             ['id' => 10, 'capitulo_id' => 2, 'nombre' => 'Topografía'],
             ['id' => 11, 'capitulo_id' => 2, 'nombre' => 'Armamento y teoría del tiro'],
             ['id' => 12, 'capitulo_id' => 2, 'nombre' => 'Transmisiones'],
+            ['id' => 13, 'capitulo_id' => 2, 'nombre' => 'prueba'],
+            ['id' => 14, 'capitulo_id' => 2, 'nombre' => 'prueba'],
+            ['id' => 15, 'capitulo_id' => 2, 'nombre' => 'prueba'],
         ]);
     }
 }

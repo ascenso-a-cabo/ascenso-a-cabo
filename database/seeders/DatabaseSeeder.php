@@ -25,8 +25,8 @@ class DatabaseSeeder extends Seeder
             CapitulosSeeder::class,
             BloquesSeeder::class,
             TemasSeeder::class,
-            //PreguntasSeeder::class
-            //RespuestasSeeder::class falta por crear
+            PreguntasSeeder::class,
+            RespuestasSeeder::class,
 
             ProvinciasSeeder::class,
 
