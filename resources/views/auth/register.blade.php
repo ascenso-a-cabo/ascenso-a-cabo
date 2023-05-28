@@ -43,7 +43,7 @@
             <label for="provincia" class="form-label text-white">Provincia a la que opositas</label>
             <select id="provincia" class="form-select" name="provincia" required>
                 <option value="" selected disabled>Selecciona una provincia</option>
-                @foreach ($provincias as $provincia)
+                @foreach ($provinciasList as $provincia)
                     <option value="{{ $provincia->nombre }}">{{ $provincia->nombre }}</option>
                 @endforeach
             </select>

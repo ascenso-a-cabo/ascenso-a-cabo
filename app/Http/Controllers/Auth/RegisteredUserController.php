@@ -21,8 +21,8 @@ class RegisteredUserController extends Controller
      */
     public function create(): View
     {
-        $provincias = Provincia::all();
-        return view('auth.register', compact('provincias'));
+        $provinciasList = Provincia::all();
+        return view('auth.register', compact('provinciasList'));
     }
 
     /**
