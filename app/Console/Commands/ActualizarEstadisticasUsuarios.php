@@ -26,7 +26,7 @@ class ActualizarEstadisticasUsuarios extends Command
      */
     public function handle()
     {
-        //
+        //Para ejecutar el comando: php artisan app:actualizar-estadisticas-usuarios
         $users = User::all();
 
         foreach ($users as $user) {

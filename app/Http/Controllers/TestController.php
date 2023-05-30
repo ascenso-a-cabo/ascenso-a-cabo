@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Pregunta;
 use App\Models\Respuesta;
 use App\Models\Nota;
-use App\Models\Examen;
+use Illuminate\Support\Facades\Artisan;
 
 class TestController extends Controller
 {
@@ -65,10 +65,18 @@ class TestController extends Controller
         // Guarda la nota final en la base de datos en base de 10
         $notaFinalPonderada = ($notaFinal * 2)/10;
         $nota = new Nota();
-        $nota->usuario_id = $request->user()->id;
+        $nota->user_id = $request->user()->id;
         $nota->nota = $notaFinalPonderada;
         $nota->bloque_id = $preguntas[0]->bloque_id;
         $nota->save();
+
+        // Añade uno al campo total_examenes del usuario
+        $user = $request->user();
+        $user->total_examenes += 1;
+        $user->save();
+
+        // Ejecuta el comando de actualizar la media de notas del usuario
+        Artisan::call('app:actualizar-estadisticas-usuarios');
 
         // Renderiza la vista 'respuestas' y pasa los resultados, la nota final, las preguntas y las respuestas del usuario como datos a la vista
         return view('submit', compact('resultados', 'notaFinal', 'preguntas', 'respuestasUsuario', 'notaFinalPonderada'));
