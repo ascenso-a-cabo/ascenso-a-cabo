@@ -36,8 +36,10 @@ Route::resource('examenes', ExamenController::class)
 
 //RUTAS PARA LOS EXAMENES
 
-Route::get('/examenes/{tema}', [TestController::class, 'realizarTest'])->name('test.realizar');
-Route::post('/test/submit', [TestController::class, 'submit'])->name('test.submit');
+Route::get('/examenes/{tema}', [TestController::class, 'realizarTest'])->name('test.realizar')
+    ->middleware(['auth', 'verified']);
+Route::post('/test/submit', [TestController::class, 'submit'])->name('test.submit')
+    ->middleware(['auth', 'verified']);
 
 
 /*Route::get('/comunidad', function () {
@@ -53,7 +55,7 @@ Route::resource('user', UserController::class)
 })->middleware(['auth', 'verified'])->name('comments');*/
 
 Route::resource('chirps', ChirpController::class)
-    ->only(['index', 'store'])
+    ->only(['index', 'store', 'edit', 'update', 'destroy'])
     ->middleware(['auth', 'verified']);
 
 Route::middleware('auth')->group(function () {
