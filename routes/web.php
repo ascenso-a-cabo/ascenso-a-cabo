@@ -3,6 +3,7 @@
 use App\Http\Controllers\ChirpController;
 use App\Http\Controllers\ExamenController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TestController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,6 +33,11 @@ Route::get('/dashboard', function () {
 Route::resource('examenes', ExamenController::class)
     ->only('index')
     ->middleware(['auth', 'verified']);
+
+//RUTAS PARA LOS EXAMENES
+
+Route::get('/examenes/{tema}', [TestController::class, 'realizarTest'])->name('test.realizar');
+
 
 /*Route::get('/comunidad', function () {
     return view('comunidad');

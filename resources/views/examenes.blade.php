@@ -27,22 +27,16 @@
                 </div>
                 <div>
                     @foreach ($capitulos as $capitulo)
-                        <div class="bg-secondary text-white text-center pb-5">
+                        <div class="bg-secondary text-white">
                             <h2>Capitulo: {{ $capitulo->nombre }}</h2>
                                 @foreach ($capitulo->bloques as $bloque)
-                                    <div class="container bg-dark text-white mb-3 border border-5 rounded border-warning">
                                         <h4>Bloque: {{ $bloque->nombre }}</h4>
-                                        <div class="d-flex justify-content-around flex-wrap">
-                                            @foreach ($bloque->temas as $tema)
-                                                <div class="col col-md-4 card text-center border-dark mb-3 hover text-dark"  style="width: 18rem;">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title mb-3">{{ $tema->nombre }}</h5>
-                                                        <a href="#" class="btn btn-outline-secondary">Realizar Test</a>
-                                                    </div>
-                                                </div>
-                                            @endforeach
-                                        </div>
-                                    </div>
+                                            <ul style="list-style-type: disc;">
+                                                @foreach ($bloque->temas as $tema)
+                                                        <li style="margin: 0;">{{ $tema->nombre }}</li>
+                                                @endforeach
+                                            </ul>
+                                            <button type="button" class="btn btn-danger"><a class="text-white" href="{{ route('test.realizar', $bloque->id) }}">Realizar Test</a></button>
                                 @endforeach
                         </div>
                     @endforeach
