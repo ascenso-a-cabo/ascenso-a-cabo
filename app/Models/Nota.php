@@ -20,8 +20,8 @@ class Nota extends ApiModelFunctions
         return $this->belongsTo(User::class);
     }
 
-    public function examenes()
+    public function bloques()
     {
-        return $this->belongsTo(Examen::class);
+        return $this->belongsTo(Bloque::class);
     }
 }

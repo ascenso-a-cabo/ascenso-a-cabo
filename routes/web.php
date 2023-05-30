@@ -38,7 +38,7 @@ Route::resource('examenes', ExamenController::class)
 
 Route::get('/examenes/{tema}', [TestController::class, 'realizarTest'])->name('test.realizar')
     ->middleware(['auth', 'verified']);
-Route::post('/test/submit', [TestController::class, 'submit'])->name('test.submit')
+Route::post('/test/submit', [TestController::class, 'submitTest'])->name('test.submit')
     ->middleware(['auth', 'verified']);
 
 

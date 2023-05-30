@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Pregunta;
 use App\Models\Respuesta;
+use App\Models\Nota;
+use App\Models\Examen;
 
 class TestController extends Controller
 {
@@ -27,73 +29,50 @@ class TestController extends Controller
          return view('test', compact('preguntas', 'respuestas'));
      }
 
-     public function submitTest(Request $request)
-        {
-            $respuestasEnviadas = $request->input('respuesta');
+    public function submitTest(Request $request)
+    {
+        // Obtén las respuestas enviadas por el usuario desde el formulario
+        $respuestasUsuario = $request->input('respuesta');
 
-            // Lógica para procesar las respuestas enviadas
-            // ...
+        // Obtén todas las respuestas de la base de datos
+        $todasRespuestas = Respuesta::all();
 
-            // Retornar una vista con los resultados
-            return view('test.resultados');
+        // Obtén todas las preguntas relacionadas con las respuestas
+        $preguntas = Pregunta::whereIn('id', array_keys($respuestasUsuario))->get();
+
+        // Realiza la comparación de respuestas y obtén los resultados en un arreglo
+        $resultados = [];
+        $notaFinal = 0;
+
+        foreach ($respuestasUsuario as $preguntaId => $respuestaId) {
+            // Busca la respuesta correspondiente en la base de datos
+            $respuesta = $todasRespuestas->find($respuestaId);
+
+            // Verifica si la respuesta existe y si su valor indica que es correcta
+            $resultado = ($respuesta && $respuesta->valor) ? true : false;
+            $resultados[$preguntaId] = $resultado;
+
+            // Calcula la nota
+            if ($resultado) {
+                $notaFinal += 1; // Respuesta correcta suma 1 punto
+            } elseif ($respuestaId === null) {
+                // Respuesta no contestada, no suma puntos ni resta
+            } else {
+                $notaFinal -= 0.25; // Respuesta incorrecta resta 0.25 puntos
+            }
         }
 
-     
+        // Guarda la nota final en la base de datos en base de 10
+        $notaFinalPonderada = ($notaFinal * 2)/10;
+        $nota = new Nota();
+        $nota->usuario_id = $request->user()->id;
+        $nota->nota = $notaFinalPonderada;
+        $nota->bloque_id = $preguntas[0]->bloque_id;
+        $nota->save();
 
-    public function index()
-    {
-        //
-        /*$preguntas = Pregunta::inRandomOrder()->take(50)->get();
-        $respuestas = Respuesta::all();
-        
-        return view('test', compact('preguntas', 'respuestas'));*/
-    }
+        // Renderiza la vista 'respuestas' y pasa los resultados, la nota final, las preguntas y las respuestas del usuario como datos a la vista
+        return view('submit', compact('resultados', 'notaFinal', 'preguntas', 'respuestasUsuario', 'notaFinalPonderada'));
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
+    }     
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
-    }
 }
