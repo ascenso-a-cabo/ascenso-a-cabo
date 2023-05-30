@@ -91,6 +91,9 @@ class PreguntasSeeder extends Seeder
             ['id' => 60, 'enunciado' => 'RR.OO. Art. 101. Competencia en la actuación. (Solo una parte de esta frase dividida en tres partes es correcta).', 'bloque_id' => 1],
             ['id' => 61, 'enunciado' => 'RR.OO. Art. 103. Prestigio de las Fuerzas Armadas. Apoyo a las Fuerzas y Cuerpo de Seguridad. Cuando se le asignen misiones de colaboración y apoyo a las Fuerzas y apoyo a las fuerzas y cuerpos de seguridad para ____________del libre
             ejercicio de los derechos y libertades para garantizar la seguridad ciudadana, pondrá___________ en el cumplimiento de las tareas asignadas.', 'bloque_id' => 1],
+
+
+
             ['id' => 62, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 1. La seguridad en las FAS…', 'bloque_id' => 2],
             ['id' => 63, 'enunciado' => 'Seguridad en las FAS. RD.194/2010. ART. 2. Definiciones. A efectos de estas
             normas:', 'bloque_id' => 2],
@@ -142,6 +145,9 @@ class PreguntasSeeder extends Seeder
             ['id' => 94, 'enunciado' => 'Seguridad en las FAS. O.M. 50/2011. Art. 82. Composición de una guardia de
             seguridad.', 'bloque_id' => 2],
             ['id' => 95, 'enunciado' => 'Seguridad en las FAS. O.M. 50/2011 ART.86. Cabo de guardia.', 'bloque_id' => 2],
+
+
+
             ['id' => 96, 'enunciado' => 'Mando de régimen interior. La acción del mando.', 'bloque_id' => 3],
             ['id' => 97, 'enunciado' => 'Mando de régimen interior. Régimen interior.', 'bloque_id' => 3],
             ['id' => 98, 'enunciado' => 'Mando de régimen interior. Se denomina unidad…', 'bloque_id' => 3],
@@ -199,6 +205,9 @@ class PreguntasSeeder extends Seeder
             las guardias. Quien no realizara guardias?', 'bloque_id' => 3],
             ['id' => 126, 'enunciado' => 'Mando de régimen interior. OM 50/2011 Art. 106. Nombramiento de
             las guardias.', 'bloque_id' => 3],
+
+
+
             ['id' => 127, 'enunciado' => 'Legislación militar. Ley de carrera militar. Art. 1. Objeto y ámbito de
             aplicación.', 'bloque_id' => 4],
             ['id' => 128, 'enunciado' => 'Legislación militar. Ley de carrera militar. Art. 1. Objeto y ámbito de
@@ -309,6 +318,9 @@ class PreguntasSeeder extends Seeder
             conlleve una limitación ocupar determinados destinos, se les garantizara
             el principio de igualdad de trato en los destinos a los que puedan
             acceder.', 'bloque_id' => 4],
+
+
+
             ['id' => 176, 'enunciado' => 'Señala la falsa. Régimen disciplinario. Art. 5.', 'bloque_id' => 5],
             ['id' => 177, 'enunciado' => 'Régimen disciplinario. Código Penal Militar. Art. 8. Es orden todo
             mandato que un superior militar da a un subordinado.', 'bloque_id' => 5],
@@ -377,6 +389,9 @@ class PreguntasSeeder extends Seeder
             responsabilidad criminal los militares por desobedecer una orden que
             entrañe una infracción manifiesta, clara y terminante de una norma con
             rango de ley.', 'bloque_id' => 5],
+
+
+
             ['id' => 196, 'enunciado' => 'Organización del E.T. ¿Cuál es el órgano del apoyo a la fuerza
             terrestre del E.T. responsable de la dirección, gestión, administración y
             control de los recursos financieros puestos a disposición del E.T. y de la
@@ -405,6 +420,9 @@ class PreguntasSeeder extends Seeder
             operaciones?', 'bloque_id' => 6],
             ['id' => 208, 'enunciado' => 'Organización del E.T. ¿Cuál de los siguientes forma parte de la
             estructura orgánica de las FAS?', 'bloque_id' => 6],
+
+
+
             ['id' => 209, 'enunciado' => 'Señalar la falsa. Derechos y deberes. LO. 9/2011 ART. 2. ¿A quién es de aplicación
             esta Ley Organica?', 'bloque_id' => 7],
             ['id' => 210, 'enunciado' => 'Derechos y deberes. LO. 9/2011 ART. 4. Principio de igualdad.', 'bloque_id' => 7],
@@ -480,6 +498,9 @@ class PreguntasSeeder extends Seeder
             funciones cual no es una función del observatorio de la vida militar.', 'bloque_id' => 7],
             ['id' => 241, 'enunciado' => 'Derechos y deberes. LO. 9/2011 ART. 55. El observatorio de la vida
             militar estará compuesto por:', 'bloque_id' => 7],
+
+
+
             ['id' => 242, 'enunciado' => 'Iniciativas y quejas. Iniciativas y quejas. LO. 9/2011 ART. 2. La
             reclamación que el militar debe hacerla:', 'bloque_id' => 8],
             ['id' => 243, 'enunciado' => 'Iniciativas y quejas. LO. 9/2011 ART. 3. Las iniciativas y quejas.', 'bloque_id' => 8],
@@ -495,429 +516,439 @@ class PreguntasSeeder extends Seeder
             transcurrir si no hubiese sido contestada la queja y resuelta para poderla
             presentar directamente con copia a Jefe de Unidad ante el Mando de
             Personal o Jefatura de Personal?', 'bloque_id' => 8],
-            ['id' => 248, 'enunciado' => 'Armamentos generales. Los blancos para los ejercicios de tiro
-            deben ser:', 'bloque_id' => 9],
-            ['id' => 249, 'enunciado' => 'Armamentos generales. En caso de golpes fuertes de caídas el
-            arma debe ser inspeccionada por el fabricante o técnico experto en
-            armas de fuego.', 'bloque_id' => 9],
-            ['id' => 250, 'enunciado' => 'Armamentos generales. Antes del empleo del arma se deberá
-            comprobar. El arma esta descargada, se ha retirado el sistema de
-            alimentación y esta libre la recamara.', 'bloque_id' => 9],
-            ['id' => 251, 'enunciado' => 'Ametralladora MG-42. Cadencia teórica de disparo por minuto.', 'bloque_id' => 9],
-            ['id' => 252, 'enunciado' => 'Ametralladora MG-42. ¿Cuál de las siguientes partes no está dentro
-            del mecanismo de cierre?', 'bloque_id' => 9],
-            ['id' => 253, 'enunciado' => 'Ametralladora MG-42. Interruptor con su muelle forma parte de…', 'bloque_id' => 9],
-            ['id' => 254, 'enunciado' => 'Ametralladora MG-42. El sistema de cierres es…
-            RI47', 'bloque_id' => 9],
-            ['id' => 255, 'enunciado' => 'Ametralladora MG-42. ¿Cuál de las siguientes no forma parte del
-            mecanismo de percusión?.', 'bloque_id' => 9],
-            ['id' => 256, 'enunciado' => 'Ametralladora MG-42. El alcance máximo del arma es…', 'bloque_id' => 9],
-            ['id' => 257, 'enunciado' => 'Ametralladora MG-42. Alcance de tiro máximo.', 'bloque_id' => 9],
-            ['id' => 258, 'enunciado' => 'Ametralladora MG-42. ¿Qué elemento no corresponde a la carcasa
-            para su estudio?', 'bloque_id' => 9],
-            ['id' => 259, 'enunciado' => 'Ametralladora MG-42. El seguro de bloque va alojado en…', 'bloque_id' => 9],
-            ['id' => 260, 'enunciado' => 'Ametralladora MG-42. ¿Los cierres de respeto de que peso son?', 'bloque_id' => 9],
-            ['id' => 261, 'enunciado' => 'Ametralladora MG-42. La ametralladora MG-42 es un arma ideal
-            para tiro por sorpresa.', 'bloque_id' => 9],
-            ['id' => 262, 'enunciado' => 'Ametralladora MG-42. El rayado del cañón es:', 'bloque_id' => 9],
-            ['id' => 263, 'enunciado' => 'Ametralladora MG-42. Para variar la cadencia de disparo
-            utilizamos.', 'bloque_id' => 9],
-            ['id' => 264, 'enunciado' => 'Ametralladora MG-42. En caso de no producirse el disparo y si el
-            cañón está caliente habrá que esperar unos :', 'bloque_id' => 9],
-            ['id' => 265, 'enunciado' => 'Ametralladora MG-42. En el desarmado y armado de la MG-42 para
-            quitar la tapa del cajón de los mecanismos habrá que colocarla formando
-            un ángulo de.', 'bloque_id' => 9],
-            ['id' => 266, 'enunciado' => 'Ametralladora MG-42. ¿Cuál de los siguientes va unido y en su
-            extremo anterior va unido al balancín?', 'bloque_id' => 9],
-            ['id' => 267, 'enunciado' => 'Ametralladora MG-42. El extractor, rodillos de bloqueo, porta
-            percutor y percutor forman parte de…', 'bloque_id' => 9],
-            ['id' => 268, 'enunciado' => 'Ametralladora MG-42. La ametralladora MG-42 es un arma ideal
-            para todo por sorpresa.', 'bloque_id' => 9],
-            ['id' => 269, 'enunciado' => 'Ametralladora MG-42. El sector graduado del trípode de la MG-42
-            va desde…', 'bloque_id' => 9],
-            ['id' => 270, 'enunciado' => 'Ametralladora MG-42. Si decimos que es cilíndrica envolviendo la
-            boca del cañón hablamos.', 'bloque_id' => 9],
-            ['id' => 271, 'enunciado' => 'Ametralladora MG-42. La ametralladora MG-42 con trípode se
-            convierte en…', 'bloque_id' => 9],
-            ['id' => 272, 'enunciado' => 'Ametralladora MG-4 E.T. Descripción resumida de la ametralladora
-            ligera MG-4 ET.', 'bloque_id' => 9],
-            ['id' => 273, 'enunciado' => 'Ametralladora MG-4 E.T. Descripción resumida de la ametralladora
-            ligera MG-4 ET.', 'bloque_id' => 9],
-            ['id' => 274, 'enunciado' => 'Ametralladora MG-4 E.T. El arma permite el disparo en ráfagas
-            largas y cortas a blancos a una distancia de hasta.', 'bloque_id' => 9],
-            ['id' => 275, 'enunciado' => 'Ametralladora MG-4 E.T. La MG-4 es un arma completamente
-            automática.', 'bloque_id' => 9],
-            ['id' => 276, 'enunciado' => 'Ametralladora MG-4 E.T. Posee un alza para distancias al blanco u
-            objetivo de 100 metros.', 'bloque_id' => 9],
-            ['id' => 277, 'enunciado' => 'Ametralladora MG-4 E.T. La bolsa de transporte de cintas es de:', 'bloque_id' => 9],
-            ['id' => 278, 'enunciado' => 'Ametralladora MG-4 E.T. El canal de guía para el cierre se
-            encuentra:', 'bloque_id' => 9],
-            ['id' => 279, 'enunciado' => 'Ametralladora MG-4 E.T. El seguro se puede accionar:', 'bloque_id' => 9],
-            ['id' => 280, 'enunciado' => 'Ametralladora MG-4 E.T. Descripción resumida de la ametralladora
-            ligera MG-4 ET. Los elementos de seguridad están integrados en…', 'bloque_id' => 9],
-            ['id' => 281, 'enunciado' => 'Ametralladora MG-4 E.T. El cañón debe ser sustituido o enfriado,
-            después de un tiro a ráfagas continuas en secuencia rápida de unos:', 'bloque_id' => 9],
-            ['id' => 282, 'enunciado' => 'Ametralladora MG-4 E.T. El indicador de carga muestra:', 'bloque_id' => 9],
-            ['id' => 283, 'enunciado' => 'Ametralladora MG-4 E.T. El sistema de cierre es de:', 'bloque_id' => 9],
-            ['id' => 284, 'enunciado' => 'Ametralladora MG-4 E.T. Cuando exista una insuficiente presión
-            de gas del cartucho (fallo de munición), o cuando el arma no ha sido
-            rearmada del todo, el soporte del cierre queda retenido en:', 'bloque_id' => 9],
-            ['id' => 285, 'enunciado' => 'Ametralladora MG-4 E.T. Es posible la utilización de salvas.', 'bloque_id' => 9],
-            ['id' => 286, 'enunciado' => 'Ametralladora MG-4 E.T. El bloque de toma de gases con casquillo
-            de propulsión se encuentra en:', 'bloque_id' => 9],
-            ['id' => 287, 'enunciado' => 'Ametralladora MG-4 E.T. Normas de seguridad para el uso del visor
-            Trijicon en la ametralladora ligera MG-4ET.', 'bloque_id' => 9],
-            ['id' => 288, 'enunciado' => 'Granada Alambra. La envuelta de fragmentación contiene unas:', 'bloque_id' => 9],
-            ['id' => 289, 'enunciado' => 'Granada Alambra. Descripción.', 'bloque_id' => 9],
-            ['id' => 290, 'enunciado' => 'Granada Alambra. ¿Cual no corresponde a los elementos interiores
-            de seguridad?', 'bloque_id' => 9],
-            ['id' => 291, 'enunciado' => 'Granada Alambra. Definición de granada de mano.', 'bloque_id' => 9],
-            ['id' => 292, 'enunciado' => 'Granada Alambra. El retardo de seguridad de lanzamiento que
-            inhabilita el paso de energía disponible al detonadores de:', 'bloque_id' => 9],
-            ['id' => 293, 'enunciado' => 'Granada Alambra. ¿Cual no es una característica principal de la
-            granada?', 'bloque_id' => 9],
-            ['id' => 294, 'enunciado' => 'Granada Alambra. En la granada de mano si el radio de acción es
-            muy inferior al de alcance es:', 'bloque_id' => 9],
-            ['id' => 295, 'enunciado' => 'Granada Alambra. La espoleta de la granada de mano Alhambra D/
-            O es la denominada.', 'bloque_id' => 9],
-            ['id' => 296, 'enunciado' => 'Granada Alambra. La granada de mano tiene un peso de:', 'bloque_id' => 9],
-            ['id' => 297, 'enunciado' => 'Granada Alambra. Radio letal de la granada de mano Alhambra es
-            de:', 'bloque_id' => 9],
-            ['id' => 298, 'enunciado' => 'Granada Alambra. Partes de las que se componen las granadas de
-            mano.', 'bloque_id' => 9],
-            ['id' => 299, 'enunciado' => 'Granada Alambra. Las bolas de acero que se encuentran en la
-            envuelta de fragmentación, tiene un diámetro de :', 'bloque_id' => 9],
-            ['id' => 300, 'enunciado' => 'Granada Alambra. Una de las características de la granada de
-            mano se usada por.', 'bloque_id' => 9],
-            ['id' => 301, 'enunciado' => 'Granada Alambra. Clasificación de las granadas de mano:', 'bloque_id' => 9],
-            ['id' => 302, 'enunciado' => 'Granada Alambra. Espoleta de la granada de mano Alhambra.', 'bloque_id' => 9],
-            ['id' => 303, 'enunciado' => 'Granada Alambra. Una vez que la granada de mano abandona la
-            mano del lanzador, se produce la explosión de la granada de mano a los:', 'bloque_id' => 9],
-            ['id' => 304, 'enunciado' => 'Granada Alambra. Todos y cada uno de los elementos de la
-            granada de mano Alhambra tiene una vida útil superiora:', 'bloque_id' => 9],
-            ['id' => 305, 'enunciado' => 'Pistola USP compact. Pistola USP Compact. Longitud de mira.', 'bloque_id' => 9],
-            ['id' => 306, 'enunciado' => 'Pistola USP Compact. Partes del cañón.', 'bloque_id' => 9],
-            ['id' => 307, 'enunciado' => 'Pistola USP Compact. Total de seguros activos y pasivos .', 'bloque_id' => 9],
-            ['id' => 308, 'enunciado' => 'Pistola USP Compact. El armazón está fabricado en ________
-            mediante inyección en un molde, de una mezcla de plástico _________ y
-            fibra de vidrio.', 'bloque_id' => 9],
-            ['id' => 309, 'enunciado' => 'Pistola USP Compact. Seguros activos.', 'bloque_id' => 9],
-            ['id' => 310, 'enunciado' => 'Pistola USP Compact. Alcance eficaz.', 'bloque_id' => 9],
-            ['id' => 311, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            pistola USP.', 'bloque_id' => 9],
-            ['id' => 312, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 313, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 314, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 315, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 316, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 317, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 318, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 319, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 320, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 321, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 322, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
-            Pistola USP Compact.', 'bloque_id' => 9],
-            ['id' => 323, 'enunciado' => 'Pistola USP compact. ¿Cuál de estos no es un sistema de
-            seguridad de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 324, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes se considera un sistema
-            de seguridad pasivo de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 325, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes se considera un
-            sistema de seguridad activo de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 326, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes no
-            forma parte del armazón de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 327, 'enunciado' => 'Pistola USP compact. ¿Qué longitud tiene el cañón de la pistola
-            USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 328, 'enunciado' => 'Pistola USP compact. ¿Qué modo de disparo se produce con una
-            mayor presión sobre el disparador y el martillo en la posición de desamartillado
-            de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 329, 'enunciado' => 'Pistola USP compact. ¿Qué tipo de arma es la pistola USP
-            COMPACT?', 'bloque_id' => 9],
-            ['id' => 330, 'enunciado' => 'Pistola USP compact. ¿Cuál es el alcance eficaz de la pistola USP
-            COMPACT?', 'bloque_id' => 9],
-            ['id' => 331, 'enunciado' => 'Pistola USP compact. ¿Qué anchura tiene la empuñadura con palanca
-            de seguro de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 332, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes forma
-            parte del recuperador amortiguador de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 333, 'enunciado' => 'Pistola USP compact. ¿Cuánto es el cargador vacío de la pistola
-            USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 334, 'enunciado' => 'Pistola USP compact. ¿Cómo se el ánima del cañón de la pistola
-            USP COMPACT?.', 'bloque_id' => 9],
-            ['id' => 335, 'enunciado' => 'Pistola USP compact. ¿Cuál es la presión de prueba en recámara
-            de la pistola USP COMPACT?.', 'bloque_id' => 9],
-            ['id' => 336, 'enunciado' => 'Pistola USP compact. ¿Qué autonomía tiene la pistola USP
-            COMPACT?', 'bloque_id' => 9],
-            ['id' => 337, 'enunciado' => 'Pistola USP compact. ¿Cuánto pesa son cargador la pistola USP
-            COMPACT?', 'bloque_id' => 9],
-            ['id' => 338, 'enunciado' => 'Pistola USP compact. ¿Cuál es el calibre de la pistola USP
-            COMPACT?', 'bloque_id' => 9],
-            ['id' => 339, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes no es un indicador
-            de seguridad de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 340, 'enunciado' => 'Pistola USP compact. ¿Qué longitud tiene la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 341, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes forma
-            parte del cañón da la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 342, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes no
-            forma parte del armazón de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 343, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes mecanismos no
-            forma parte de la corredera?', 'bloque_id' => 9],
-            ['id' => 344, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes mecanismos no
-            forma parte de la corredera de la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 345, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes no es un indicador de
-            seguridad en la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 346, 'enunciado' => 'Pistola USP compact. ¿Qué altura tiene la pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 347, 'enunciado' => 'Pistola USP compact. ¿Qué anchura tiene la corredera de la pistola
-            USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 348, 'enunciado' => 'Pistola USP compact. ¿Cuál es la velocidad inicial de la pistola
-            USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 349, 'enunciado' => 'Pistola USP compact. ¿Cuál es la capacidad del cargador de la pistola
-            USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 350, 'enunciado' => 'Pistola USP compact. ¿Cuáles son los modos de disparo de la
-            pistola USP COMPACT?', 'bloque_id' => 9],
-            ['id' => 351, 'enunciado' => 'Pistola USP compact. ¿Qué tipo de acerrojamiento tiene la pistola
-            USPCOMPACT?', 'bloque_id' => 9],
-            ['id' => 352, 'enunciado' => 'Teoría del tiro. Balística.', 'bloque_id' => 10],
-            ['id' => 353, 'enunciado' => 'Teoría del tiro. Balística interior.', 'bloque_id' => 10],
-            ['id' => 354, 'enunciado' => 'Teoría del tiro. Proyectiles macizos y de pequeño calibre o balas:', 'bloque_id' => 10],
-            ['id' => 355, 'enunciado' => 'Teoría del tiro. Cartucho de arma ligera.', 'bloque_id' => 10],
-            ['id' => 356, 'enunciado' => 'Teoría del tiro. Proyectiles huecos y con cara explosiva internas
-            granadas.', 'bloque_id' => 10],
-            ['id' => 357, 'enunciado' => 'Teoría del tiro. ¿Cuál de los siguientes o pertenece a la 4ª
-            categoría?', 'bloque_id' => 10],
-            ['id' => 358, 'enunciado' => 'Teoría del tiro. ¿Qué dos partes distinguiremos principalmente en
-            los cartuchos de armas ligeras?', 'bloque_id' => 10],
-            ['id' => 359, 'enunciado' => 'Teoría del tiro. ¿Cuál es la línea de proyección?', 'bloque_id' => 10],
-            ['id' => 360, 'enunciado' => 'Teoría del tiro. El alcance máximo es:', 'bloque_id' => 10],
-            ['id' => 361, 'enunciado' => 'Teoría del tiro. De las siguientes cual no es una clasificación del
-            tipo de granada:', 'bloque_id' => 10],
-            ['id' => 362, 'enunciado' => 'Teoría del tiro. Angulo de elevación es:', 'bloque_id' => 10],
-            ['id' => 363, 'enunciado' => 'Teoría del tiro. Según el ángulo de tiro podemos hacer tiro tenso,
-            tiro curvo, tiro vertical.', 'bloque_id' => 10],
-            ['id' => 364, 'enunciado' => 'Teoría del tiro. El ángulo de proyección es:', 'bloque_id' => 10],
-            ['id' => 365, 'enunciado' => 'Teoría del tiro. Cuando hablamos del rendimiento nos referimos a :', 'bloque_id' => 10],
-            ['id' => 366, 'enunciado' => 'Teoría del tiro. Según el terreno sobre el que se tira puede ser:', 'bloque_id' => 10],
-            ['id' => 367, 'enunciado' => 'Teoría del tiro. Según el mecanismo de tiro puede ser :', 'bloque_id' => 10],
-            ['id' => 368, 'enunciado' => 'Teoría del tiro. Hablamos de tiro preciso cuando se produce:', 'bloque_id' => 10],
-            ['id' => 369, 'enunciado' => 'Teoría del tiro. Hablamos de tiro preciso cuando se produce:', 'bloque_id' => 10],
-            ['id' => 370, 'enunciado' => 'Transmisiones. PNR-500. La potencia transmitida es de:', 'bloque_id' => 11],
-            ['id' => 371, 'enunciado' => 'Transmisiones. PNR-500. ¿Qué tecla debemos pulsar para borrar
-            las claves de la PNR-500?', 'bloque_id' => 11],
-            ['id' => 372, 'enunciado' => 'Transmisiones. PNR-500. El radio teléfono PNR-500, permite
-            escuchar y habla a la vez, FULL DUPLEX.', 'bloque_id' => 11],
-            ['id' => 373, 'enunciado' => 'Transmisiones. PNR-500. Es una radio para:', 'bloque_id' => 11],
-            ['id' => 374, 'enunciado' => 'Transmisiones. PNR-500. La tecla FCTN sirve para:', 'bloque_id' => 11],
-            ['id' => 375, 'enunciado' => 'Transmisiones. PNR-500. Pulsando la tecla FCTN que no podemos
-            modificar.', 'bloque_id' => 11],
-            ['id' => 376, 'enunciado' => 'Transmisiones. PNR-500. El modo VOX que opción nos da.', 'bloque_id' => 11],
-            ['id' => 377, 'enunciado' => 'Transmisiones. PNR-500. ¿Cuántos minutos le quedan
-            aproximadamente de funcionamiento a la PNR-500 cuando indica
-            BATERIA DEBIL?', 'bloque_id' => 11],
-            ['id' => 378, 'enunciado' => 'Transmisiones. PNR-500. Para averiguar el canal que tiene activado
-            la radio que tecla debemos pulsar.', 'bloque_id' => 11],
-            ['id' => 379, 'enunciado' => 'Transmisiones. PNR-500. ¿Qué tecla debemos pulsar para cambiar
-            el puesto táctico?', 'bloque_id' => 11],
-            ['id' => 380, 'enunciado' => 'Transmisiones. PNR-500. La duración de las baterías
-            aproximadamente es de:', 'bloque_id' => 11],
-            ['id' => 381, 'enunciado' => 'Transmisiones. PNR-500. De los siguientes elementos cual no
-            corresponde a los componentes del equipo.', 'bloque_id' => 11],
-            ['id' => 382, 'enunciado' => 'Transmisiones. PR4G. Que no forma parte del RT-9200.', 'bloque_id' => 11],
-            ['id' => 383, 'enunciado' => 'Transmisiones. PR4G. en la PR4G, en el conmutador de encendido
-            y selección de potencia, ¿Qué posición no existe?', 'bloque_id' => 11],
-            ['id' => 384, 'enunciado' => 'Transmisiones. PR4G. ¿Cuántas posiciones tiene el conmutador de
-            volumen?', 'bloque_id' => 11],
-            ['id' => 385, 'enunciado' => 'Transmisiones. PR4G. ¿Qué precaución no corresponde a las que
-            debemos de tener en su manejo para un mejor rendimiento y evitar
-            averías?', 'bloque_id' => 11],
-            ['id' => 386, 'enunciado' => 'Transmisiones. PR4G. ¿Cuántas posiciones tiene de volumen?', 'bloque_id' => 11],
-            ['id' => 387, 'enunciado' => 'Transmisiones. PR4G. ¿Qué diferencias físicas y mecánicas RT-
-            9200/RT-9210?', 'bloque_id' => 11],
-            ['id' => 388, 'enunciado' => 'Transmisiones. TP-6N. ¿Cuál de los siguientes elementos no
-            pertenece a la composición del equipo TP-6N?', 'bloque_id' => 11],
-            ['id' => 389, 'enunciado' => 'Transmisiones. TP-6N. El indicador luminoso de llamadas, ¿Qué
-            otra función tiene?', 'bloque_id' => 11],
-            ['id' => 390, 'enunciado' => 'Transmisiones. TP-6N. En la comprobación de líneas el indicador
-            debe encenderse en una línea en condiciones normales…', 'bloque_id' => 11],
-            ['id' => 391, 'enunciado' => 'Transmisiones. Redes de trabajo.', 'bloque_id' => 11],
-            ['id' => 392, 'enunciado' => 'Transmisiones. Cuál de las siguientes no es una regla básica de
-            seguridad de las transmisiones.', 'bloque_id' => 11],
-            ['id' => 393, 'enunciado' => 'Transmisiones. ¿Qué es una malla?', 'bloque_id' => 11],
-            ['id' => 394, 'enunciado' => 'Transmisiones. Conocimientos básicos para transmitir.', 'bloque_id' => 11],
-            ['id' => 395, 'enunciado' => 'Transmisiones. Alfabeto internacional V.', 'bloque_id' => 11],
-            ['id' => 396, 'enunciado' => 'Transmisiones. Alfabeto fonético internacional.', 'bloque_id' => 11],
-            ['id' => 397, 'enunciado' => 'Transmisiones. El grupo de fecha y hora está formado por:', 'bloque_id' => 11],
-            ['id' => 398, 'enunciado' => 'Transmisiones. IBT.', 'bloque_id' => 11],
+
             ['id' => 399, 'enunciado' => 'Instrucción de combate. A la obra que para periodos largos de
             tiempo proporciona seguridad, comodidad y un empleo eficaz de
-            nuestras armas hablamos de :', 'bloque_id' => 12],
+            nuestras armas hablamos de :', 'bloque_id' => 9],
             ['id' => 400, 'enunciado' => 'Instrucción de combate. ¿Cómo paliaremos los efectos de la rotura
-            del ciclo circadiano?', 'bloque_id' => 12],
+            del ciclo circadiano?', 'bloque_id' => 9],
             ['id' => 401, 'enunciado' => 'Instrucción de combate. Para una buena elección del puesto de
             observación que condición no debe reunir.Instrucción de combate. Para una buena elección del puesto de
-            observación que condición no debe reunir.', 'bloque_id' => 12],
+            observación que condición no debe reunir.', 'bloque_id' => 9],
             ['id' => 402, 'enunciado' => 'Instrucción de combate. Modificar el aspecto de los medios
             propios de tal forma que confundan con el aspecto del terreno es una
-            definición de:', 'bloque_id' => 12],
-            ['id' => 403, 'enunciado' => 'Instrucción de combate. Los centinelas pueden ser:', 'bloque_id' => 12],
-            ['id' => 404, 'enunciado' => 'Instrucción de combate. ¿Cuántos niveles de luminosidad existen?', 'bloque_id' => 12],
+            definición de:', 'bloque_id' => 9],
+            ['id' => 403, 'enunciado' => 'Instrucción de combate. Los centinelas pueden ser:', 'bloque_id' => 9],
+            ['id' => 404, 'enunciado' => 'Instrucción de combate. ¿Cuántos niveles de luminosidad existen?', 'bloque_id' => 9],
             ['id' => 405, 'enunciado' => 'Instrucción de combate. La posición debe ser perfeccionada y
-            enmascarada.', 'bloque_id' => 12],
+            enmascarada.', 'bloque_id' => 9],
             ['id' => 406, 'enunciado' => 'Instrucción de combate. ¿Cuál de las siguientes no es una misión
-            principal del observador?', 'bloque_id' => 12],
+            principal del observador?', 'bloque_id' => 9],
             ['id' => 407, 'enunciado' => 'Instrucción de combate. El avance colectivo es el fundamento de la
-            actuación del combatiente en el campo de batalla.', 'bloque_id' => 12],
+            actuación del combatiente en el campo de batalla.', 'bloque_id' => 9],
             ['id' => 408, 'enunciado' => 'Instrucción de combate. Aparte de los medios disponibles la
-            observación depende de la meteorología y el enemigo.', 'bloque_id' => 12],
+            observación depende de la meteorología y el enemigo.', 'bloque_id' => 9],
             ['id' => 409, 'enunciado' => 'Instrucción de combate. Si decimos que los contornos se
             distinguen hasta 20mts. De distancia. ¿Qué nivel de luminosidad
-            hablamos?', 'bloque_id' => 12],
+            hablamos?', 'bloque_id' => 9],
             ['id' => 410, 'enunciado' => 'Instrucción de combate. Sumideros de agua, sumideros de
-            granadas y cubierta de techo son partes de:', 'bloque_id' => 12],
+            granadas y cubierta de techo son partes de:', 'bloque_id' => 9],
             ['id' => 411, 'enunciado' => 'Instrucción de combate. ¿Qué niveles imposibilitan la observación
-            y dificultan el movimiento y tiro?', 'bloque_id' => 12],
+            y dificultan el movimiento y tiro?', 'bloque_id' => 9],
             ['id' => 412, 'enunciado' => 'Instrucción de combate. Indique la falsa sobre la transmisión de
-            ordenes en el combate nocturno:', 'bloque_id' => 12],
+            ordenes en el combate nocturno:', 'bloque_id' => 9],
             ['id' => 413, 'enunciado' => 'Instrucción de combate. ¿Cuál de las siguientes no es una
-            modalidad de fuego de tiro de artillería?', 'bloque_id' => 12],
+            modalidad de fuego de tiro de artillería?', 'bloque_id' => 9],
             ['id' => 414, 'enunciado' => 'Instrucción de combate. Generalidades de la instrucción individual
-            del combatiente:', 'bloque_id' => 12],
+            del combatiente:', 'bloque_id' => 9],
             ['id' => 415, 'enunciado' => 'Instrucción de combate. En tiempo de paz, ¿Se puede cortar algún
-            tipo de vegetación por respeto al medio ambiente?', 'bloque_id' => 12],
-            ['id' => 416, 'enunciado' => 'Señala la falsa. Instrucción de combate. El enmascaramiento debe ser:', 'bloque_id' => 12],
+            tipo de vegetación por respeto al medio ambiente?', 'bloque_id' => 9],
+            ['id' => 416, 'enunciado' => 'Señala la falsa. Instrucción de combate. El enmascaramiento debe ser:', 'bloque_id' => 9],
             ['id' => 417, 'enunciado' => 'Instrucción de combate. ¿Cuánto aproximadamente se tarda en
-            adaptarse a la oscuridad si se sale de un lugar iluminado?', 'bloque_id' => 12],
-            ['id' => 418, 'enunciado' => 'Instrucción de combate. El enmascaramiento:', 'bloque_id' => 12],
+            adaptarse a la oscuridad si se sale de un lugar iluminado?', 'bloque_id' => 9],
+            ['id' => 418, 'enunciado' => 'Instrucción de combate. El enmascaramiento:', 'bloque_id' => 9],
             ['id' => 419, 'enunciado' => 'Instrucción de combate. Ante un alarma aérea, que es lo primero
-            que debemos de hacer.', 'bloque_id' => 12],
+            que debemos de hacer.', 'bloque_id' => 9],
             ['id' => 420, 'enunciado' => 'Instrucción de combate. En la preparación para el avance cual no
-            es un factor.', 'bloque_id' => 12],
+            es un factor.', 'bloque_id' => 9],
             ['id' => 421, 'enunciado' => 'Instrucción de combate. La protección más eficaz se consigue
-            conjugando.', 'bloque_id' => 12],
+            conjugando.', 'bloque_id' => 9],
             ['id' => 422, 'enunciado' => 'Instrucción de combate. ¿Cual no es una clase de
-            estacionamiento?', 'bloque_id' => 12],
+            estacionamiento?', 'bloque_id' => 9],
             ['id' => 423, 'enunciado' => 'Instrucción de combate. La observación para que sea eficaz como
-            no debe ser:', 'bloque_id' => 12],
+            no debe ser:', 'bloque_id' => 9],
             ['id' => 424, 'enunciado' => 'Instrucción de combate. Si hablamos de interponer una masa
-            cubridora entre el enemigo y nosotros nos referimos a:', 'bloque_id' => 12],
+            cubridora entre el enemigo y nosotros nos referimos a:', 'bloque_id' => 9],
             ['id' => 425, 'enunciado' => 'Instrucción de combate. Indique la falsa sobre la transmisión de
-            ordenes en el combate nocturno:', 'bloque_id' => 12],
+            ordenes en el combate nocturno:', 'bloque_id' => 9],
             ['id' => 426, 'enunciado' => 'Instrucción de combate. En la ejecución del salto debemos que
-            correr por el camino más corto siempre en Zigzag.', 'bloque_id' => 12],
+            correr por el camino más corto siempre en Zigzag.', 'bloque_id' => 9],
             ['id' => 427, 'enunciado' => 'Instrucción de combate. Para una buena elección de puesto de
-            observación, que condición no debe de reunir.', 'bloque_id' => 12],
+            observación, que condición no debe de reunir.', 'bloque_id' => 9],
             ['id' => 428, 'enunciado' => 'Instrucción de combate. La siguiente definición a que condición se
             refiere: el obstáculo o accidente debe ocultarnos o protegernos
-            totalmente.', 'bloque_id' => 12],
+            totalmente.', 'bloque_id' => 9],
             ['id' => 429, 'enunciado' => 'Instrucción de combate. Para realizar la vigilancia, cual es el orden
-            a seguir.', 'bloque_id' => 12],
+            a seguir.', 'bloque_id' => 9],
             ['id' => 430, 'enunciado' => 'Instrucción de combate. Cuál de las siguientes no pertenece a una
-            de las características del enmascaramiento.', 'bloque_id' => 12],
+            de las características del enmascaramiento.', 'bloque_id' => 9],
             ['id' => 431, 'enunciado' => 'Instrucción de combate. En la identificación de los medios
-            nocturnos, cual no pertenece:', 'bloque_id' => 12],
+            nocturnos, cual no pertenece:', 'bloque_id' => 9],
             ['id' => 432, 'enunciado' => 'Instrucción de combate. Cuando se prevea una utilización
             inmediata o se detecte el uso de armas NBQ a que situación nos
-            referimos a:', 'bloque_id' => 12],
+            referimos a:', 'bloque_id' => 9],
             ['id' => 433, 'enunciado' => 'Instrucción de combate. ¿Cuál no es una característica del
-            combate nocturno?', 'bloque_id' => 12],
+            combate nocturno?', 'bloque_id' => 9],
             ['id' => 434, 'enunciado' => 'Instrucción de combate. ¿Cuál de las siguientes condiciones no es
-            requisito para un campo de tiro adecuado?', 'bloque_id' => 12],
+            requisito para un campo de tiro adecuado?', 'bloque_id' => 9],
             ['id' => 435, 'enunciado' => 'Instrucción de combate. Para la realización de la observación
-            nocturna que no debemos hacer:', 'bloque_id' => 12],
+            nocturna que no debemos hacer:', 'bloque_id' => 9],
             ['id' => 436, 'enunciado' => 'Instrucción de combate. Aparte de los medios disponibles la
-            observación depende de la meteorología y el enemigo.', 'bloque_id' => 12],
+            observación depende de la meteorología y el enemigo.', 'bloque_id' => 9],
             ['id' => 437, 'enunciado' => 'Instrucción de combate. Cuando una marcha exceda de las 6 horas
-            se concederá un alto.', 'bloque_id' => 12],
+            se concederá un alto.', 'bloque_id' => 9],
             ['id' => 438, 'enunciado' => 'Instrucción de combate. Si la luna esta en cuarto menguante su
-            forma será.', 'bloque_id' => 12],
-            ['id' => 439, 'enunciado' => 'Instrucción de combate. Utilización del terreno para ocultarse.', 'bloque_id' => 12],
+            forma será.', 'bloque_id' => 9],
+            ['id' => 439, 'enunciado' => 'Instrucción de combate. Utilización del terreno para ocultarse.', 'bloque_id' => 9],
             ['id' => 440, 'enunciado' => 'Instrucción de combate. De las siguientes características no
-            pertenece a la organización del terreno.', 'bloque_id' => 12],
-            ['id' => 441, 'enunciado' => 'Instrucción NBQ. El filtro no ofrece protección contra el amoniaco:', 'bloque_id' => 13],
-            ['id' => 442, 'enunciado' => 'Instrucción NBQ. El filtro se cambiara:', 'bloque_id' => 13],
-            ['id' => 443, 'enunciado' => 'Instrucción NBQ. Para quitarnos el uniforme, el orden primero es:', 'bloque_id' => 13],
+            pertenece a la organización del terreno.', 'bloque_id' => 9],
+            ['id' => 441, 'enunciado' => 'Instrucción NBQ. El filtro no ofrece protección contra el amoniaco:', 'bloque_id' => 9],
+            ['id' => 442, 'enunciado' => 'Instrucción NBQ. El filtro se cambiara:', 'bloque_id' => 9],
+            ['id' => 443, 'enunciado' => 'Instrucción NBQ. Para quitarnos el uniforme, el orden primero es:', 'bloque_id' => 9],
             ['id' => 444, 'enunciado' => 'Instrucción NBQ. En la posición de alarma debe de ir la máscara
-            puesta y el uniforme totalmente colocado y ajustado:', 'bloque_id' => 13],
+            puesta y el uniforme totalmente colocado y ajustado:', 'bloque_id' => 9],
             ['id' => 445, 'enunciado' => 'Instrucción NBQ. En los auto-inyectables de campaña, la
-            disolución que contiene es:', 'bloque_id' => 13],
-            ['id' => 446, 'enunciado' => 'Instrucción NBQ. La máscara viene con 3 cartuchos filtrantes.', 'bloque_id' => 13],
-            ['id' => 447, 'enunciado' => 'Instrucción NBQ. EL orden riguroso de ponerse el uniforme…', 'bloque_id' => 13],
+            disolución que contiene es:', 'bloque_id' => 9],
+            ['id' => 446, 'enunciado' => 'Instrucción NBQ. La máscara viene con 3 cartuchos filtrantes.', 'bloque_id' => 9],
+            ['id' => 447, 'enunciado' => 'Instrucción NBQ. EL orden riguroso de ponerse el uniforme…', 'bloque_id' => 9],
             ['id' => 448, 'enunciado' => 'Instrucción NBQ. En la utilización en el papel detector de agresivos
-            neurotóxicos, el color anaranjado indica:', 'bloque_id' => 13],
-            ['id' => 449, 'enunciado' => 'Instrucción NBQ. ¿Cuál es el 1º efecto de una explosión nuclear?', 'bloque_id' => 13],
-            ['id' => 450, 'enunciado' => 'Instrucción NBQ. El sonido ininterrumpido de la sirena , indica:', 'bloque_id' => 13],
+            neurotóxicos, el color anaranjado indica:', 'bloque_id' => 9],
+            ['id' => 449, 'enunciado' => 'Instrucción NBQ. ¿Cuál es el 1º efecto de una explosión nuclear?', 'bloque_id' => 9],
+            ['id' => 450, 'enunciado' => 'Instrucción NBQ. El sonido ininterrumpido de la sirena , indica:', 'bloque_id' => 9],
             ['id' => 451, 'enunciado' => 'Instrucción NBQ. ¿Cual de las siguientes no es un elemento de la
-            detección?', 'bloque_id' => 13],
+            detección?', 'bloque_id' => 9],
             ['id' => 452, 'enunciado' => 'Instrucción NBQ. Si la mascara esta en el cuello colgada se dice
-            que esta en la posición de:', 'bloque_id' => 13],
+            que esta en la posición de:', 'bloque_id' => 9],
             ['id' => 453, 'enunciado' => 'Instrucción NBQ. En un ataque con agente biológicos la via de
-            entrada mas importante y la que causa las enfermedades mas graves es:', 'bloque_id' => 13],
+            entrada mas importante y la que causa las enfermedades mas graves es:', 'bloque_id' => 9],
             ['id' => 454, 'enunciado' => 'Instrucción NBQ. En los efectos de una explosión nuiclear, cual no
-            es un efectode dicha explosión.', 'bloque_id' => 13],
+            es un efectode dicha explosión.', 'bloque_id' => 9],
             ['id' => 455, 'enunciado' => 'Instrucción NBQ. En la composición del Equipo de protección
-            individual ¿Cuántos auto inyectables de atropina existen?', 'bloque_id' => 13],
+            individual ¿Cuántos auto inyectables de atropina existen?', 'bloque_id' => 9],
             ['id' => 456, 'enunciado' => 'Instrucción NBQ. En la composición del Equipo de Protección
-            Individual, ¿Cuántos envases de axiomas existen?', 'bloque_id' => 13],
-            ['id' => 457, 'enunciado' => 'Instrucción NBQ. El filtro se cambiara:', 'bloque_id' => 13],
+            Individual, ¿Cuántos envases de axiomas existen?', 'bloque_id' => 9],
+            ['id' => 457, 'enunciado' => 'Instrucción NBQ. El filtro se cambiara:', 'bloque_id' => 9],
             ['id' => 458, 'enunciado' => 'Escuadra/equipo. Formaciones de la escuadra de fusiles. Fila o
-            guerrilla es apta para…', 'bloque_id' => 14],
-            ['id' => 459, 'enunciado' => 'Señala la falsa. Escuadra/equipo. La escuadra se mueve en…', 'bloque_id' => 14],
-            ['id' => 460, 'enunciado' => 'Escuadra/equipo. En orden de marcha.', 'bloque_id' => 14],
+            guerrilla es apta para…', 'bloque_id' => 9],
+            ['id' => 459, 'enunciado' => 'Señala la falsa. Escuadra/equipo. La escuadra se mueve en…', 'bloque_id' => 9],
+            ['id' => 460, 'enunciado' => 'Escuadra/equipo. En orden de marcha.', 'bloque_id' => 9],
             ['id' => 461, 'enunciado' => 'Escuadra/equipo. ¿Cuál no es un desplazamiento de la escuadra
-            de fusiles?', 'bloque_id' => 14],
+            de fusiles?', 'bloque_id' => 9],
             ['id' => 462, 'enunciado' => 'Señala la falsa. Escuadra/equipo. El tipo de reconocimiento que puede realizar una
-            escuadra/equipo es:', 'bloque_id' => 14],
-            ['id' => 463, 'enunciado' => 'Escuadra/equipo. ¿Cuál no es una característica de la escuadra?', 'bloque_id' => 14],
+            escuadra/equipo es:', 'bloque_id' => 9],
+            ['id' => 463, 'enunciado' => 'Escuadra/equipo. ¿Cuál no es una característica de la escuadra?', 'bloque_id' => 9],
             ['id' => 464, 'enunciado' => 'Escuadra/equipo. Las formaciones de la escuadra de fusiles es la
-            Hilera, Fila y la Columna.', 'bloque_id' => 14],
+            Hilera, Fila y la Columna.', 'bloque_id' => 9],
             ['id' => 465, 'enunciado' => 'Escuadra/equipo. La zona mas probable es que se emplee el orden
-            de combate desde que se abandona:', 'bloque_id' => 14],
-            ['id' => 466, 'enunciado' => 'Señala la falsa. Escuadra/equipo. Las características de una escuadra.', 'bloque_id' => 14],
-            ['id' => 467, 'enunciado' => 'Escuadra/equipo. Mjisiones del jefe de esquadra:', 'bloque_id' => 14],
-            ['id' => 468, 'enunciado' => 'Escuadra/equipo. La unidad elemental de la infantería es:', 'bloque_id' => 14],
+            de combate desde que se abandona:', 'bloque_id' => 9],
+            ['id' => 466, 'enunciado' => 'Señala la falsa. Escuadra/equipo. Las características de una escuadra.', 'bloque_id' => 9],
+            ['id' => 467, 'enunciado' => 'Escuadra/equipo. Mjisiones del jefe de esquadra:', 'bloque_id' => 9],
+            ['id' => 468, 'enunciado' => 'Escuadra/equipo. La unidad elemental de la infantería es:', 'bloque_id' => 9],
             ['id' => 469, 'enunciado' => 'Escuadra/equipo. Formaciones de la escuadra de fusiles. Hilera es
-            apta para …', 'bloque_id' => 14],
+            apta para …', 'bloque_id' => 9],
             ['id' => 470, 'enunciado' => 'Escuadra/equipo. Formaciones de la escuadra de fusiles. La fila o
-            guerrilla es apta para…', 'bloque_id' => 14],
+            guerrilla es apta para…', 'bloque_id' => 9],
             ['id' => 471, 'enunciado' => 'Escuadra/equipo. En el reconocimiento de un punto el grupo de
-            mando y enlace normalmente se estará próximo al grupo de:', 'bloque_id' => 14],
+            mando y enlace normalmente se estará próximo al grupo de:', 'bloque_id' => 9],
+
+
+            
             ['id' => 472, 'enunciado' => 'Topografía. Que dato debemos de actualizar para hablar la
-            declinación UTM exactamente.', 'bloque_id' => 15],
-            ['id' => 473, 'enunciado' => 'Topografía. Rumbo inverso.', 'bloque_id' => 15],
-            ['id' => 474, 'enunciado' => 'Topografía. Mogote.', 'bloque_id' => 15],
-            ['id' => 475, 'enunciado' => 'Topografía. Las coordenadas polares corresponde a :', 'bloque_id' => 15],
-            ['id' => 476, 'enunciado' => 'Topografía. Orientar un mapa consiste en:', 'bloque_id' => 15],
-            ['id' => 477, 'enunciado' => 'Topografía. Señale la mejor definición de Topografía.', 'bloque_id' => 15],
-            ['id' => 478, 'enunciado' => 'Topografía. Definición de Mapa.', 'bloque_id' => 15],
-            ['id' => 479, 'enunciado' => 'Topografía. Representación de las curvas de nivel.', 'bloque_id' => 15],
-            ['id' => 480, 'enunciado' => 'Topografía. Formas topográficas simples.Topografía. Formas topográficas simples.', 'bloque_id' => 15],
+            declinación UTM exactamente.', 'bloque_id' => 10],
+            ['id' => 473, 'enunciado' => 'Topografía. Rumbo inverso.', 'bloque_id' => 10],
+            ['id' => 474, 'enunciado' => 'Topografía. Mogote.', 'bloque_id' => 10],
+            ['id' => 475, 'enunciado' => 'Topografía. Las coordenadas polares corresponde a :', 'bloque_id' => 10],
+            ['id' => 476, 'enunciado' => 'Topografía. Orientar un mapa consiste en:', 'bloque_id' => 10],
+            ['id' => 477, 'enunciado' => 'Topografía. Señale la mejor definición de Topografía.', 'bloque_id' => 10],
+            ['id' => 478, 'enunciado' => 'Topografía. Definición de Mapa.', 'bloque_id' => 10],
+            ['id' => 479, 'enunciado' => 'Topografía. Representación de las curvas de nivel.', 'bloque_id' => 10],
+            ['id' => 480, 'enunciado' => 'Topografía. Formas topográficas simples.Topografía. Formas topográficas simples.', 'bloque_id' => 10],
             ['id' => 481, 'enunciado' => 'Topografía. Que datos debemos actualizar para hallar la
-            declinación UTM exactamente.', 'bloque_id' => 15],
+            declinación UTM exactamente.', 'bloque_id' => 10],
             ['id' => 482, 'enunciado' => 'Topografía. Para la localización de un punto dadas sus
-            coordenadas, el segundo grupo de números corresponde a :', 'bloque_id' => 15],
-            ['id' => 483, 'enunciado' => 'Topografía. Rumbo es:', 'bloque_id' => 15],
+            coordenadas, el segundo grupo de números corresponde a :', 'bloque_id' => 10],
+            ['id' => 483, 'enunciado' => 'Topografía. Rumbo es:', 'bloque_id' => 10],
             ['id' => 484, 'enunciado' => 'Topografía. La declinación UTM en un punto es el ángulo que
-            forman en dicho punto el Norte Magnético y el Norte Cuadricula:', 'bloque_id' => 15],
-            ['id' => 485, 'enunciado' => 'Topografía. Las coordenadas se dan poniendo en primer lugar:', 'bloque_id' => 15],
-            ['id' => 486, 'enunciado' => 'Topografía. El eje de Abcisas se refiere al eje:', 'bloque_id' => 15],
+            forman en dicho punto el Norte Magnético y el Norte Cuadricula:', 'bloque_id' => 10],
+            ['id' => 485, 'enunciado' => 'Topografía. Las coordenadas se dan poniendo en primer lugar:', 'bloque_id' => 10],
+            ['id' => 486, 'enunciado' => 'Topografía. El eje de Abcisas se refiere al eje:', 'bloque_id' => 10],
             ['id' => 487, 'enunciado' => 'Topografía. Para la determinación de la Altitud de un punto del
-            mapa, debemos localizar:', 'bloque_id' => 15],
-            ['id' => 488, 'enunciado' => 'Topografía. Orientar un mapa consiste en :', 'bloque_id' => 15],
-            ['id' => 489, 'enunciado' => 'Topografía. La estrella polar se encuentra entre.', 'bloque_id' => 15],
+            mapa, debemos localizar:', 'bloque_id' => 10],
+            ['id' => 488, 'enunciado' => 'Topografía. Orientar un mapa consiste en :', 'bloque_id' => 10],
+            ['id' => 489, 'enunciado' => 'Topografía. La estrella polar se encuentra entre.', 'bloque_id' => 10],
             ['id' => 490, 'enunciado' => 'Topografía. En los sistemas de medición angular. ¿cual no es un
-            sistema de división?', 'bloque_id' => 15],
-            ['id' => 491, 'enunciado' => 'Topografía. Las Coordenadas polares corresponden a:', 'bloque_id' => 15],
-            ['id' => 492, 'enunciado' => 'Topografía. 68º78m 45s, se corresponde al sistema:', 'bloque_id' => 15],
+            sistema de división?', 'bloque_id' => 10],
+            ['id' => 491, 'enunciado' => 'Topografía. Las Coordenadas polares corresponden a:', 'bloque_id' => 10],
+            ['id' => 492, 'enunciado' => 'Topografía. 68º78m 45s, se corresponde al sistema:', 'bloque_id' => 10],
             ['id' => 493, 'enunciado' => 'Topografía. Orientar un Mapa es colocarlo de tal modo que las
             líneas que forman los accidentes en el representados coincidan a sus
-            homologas en el terreno', 'bloque_id' => 15],
-            ['id' => 494, 'enunciado' => 'Topografía. Las coordenadas polares corresponden a:', 'bloque_id' => 15],
+            homologas en el terreno', 'bloque_id' => 10],
+            ['id' => 494, 'enunciado' => 'Topografía. Las coordenadas polares corresponden a:', 'bloque_id' => 10],
+
+
+
+            ['id' => 248, 'enunciado' => 'Armamentos generales. Los blancos para los ejercicios de tiro
+            deben ser:', 'bloque_id' => 11],
+            ['id' => 249, 'enunciado' => 'Armamentos generales. En caso de golpes fuertes de caídas el
+            arma debe ser inspeccionada por el fabricante o técnico experto en
+            armas de fuego.', 'bloque_id' => 11],
+            ['id' => 250, 'enunciado' => 'Armamentos generales. Antes del empleo del arma se deberá
+            comprobar. El arma esta descargada, se ha retirado el sistema de
+            alimentación y esta libre la recamara.', 'bloque_id' => 11],
+            ['id' => 251, 'enunciado' => 'Ametralladora MG-42. Cadencia teórica de disparo por minuto.', 'bloque_id' => 11],
+            ['id' => 252, 'enunciado' => 'Ametralladora MG-42. ¿Cuál de las siguientes partes no está dentro
+            del mecanismo de cierre?', 'bloque_id' => 11],
+            ['id' => 253, 'enunciado' => 'Ametralladora MG-42. Interruptor con su muelle forma parte de…', 'bloque_id' => 11],
+            ['id' => 254, 'enunciado' => 'Ametralladora MG-42. El sistema de cierres es…
+            RI47', 'bloque_id' => 11],
+            ['id' => 255, 'enunciado' => 'Ametralladora MG-42. ¿Cuál de las siguientes no forma parte del
+            mecanismo de percusión?.', 'bloque_id' => 11],
+            ['id' => 256, 'enunciado' => 'Ametralladora MG-42. El alcance máximo del arma es…', 'bloque_id' => 11],
+            ['id' => 257, 'enunciado' => 'Ametralladora MG-42. Alcance de tiro máximo.', 'bloque_id' => 11],
+            ['id' => 258, 'enunciado' => 'Ametralladora MG-42. ¿Qué elemento no corresponde a la carcasa
+            para su estudio?', 'bloque_id' => 11],
+            ['id' => 259, 'enunciado' => 'Ametralladora MG-42. El seguro de bloque va alojado en…', 'bloque_id' => 11],
+            ['id' => 260, 'enunciado' => 'Ametralladora MG-42. ¿Los cierres de respeto de que peso son?', 'bloque_id' => 11],
+            ['id' => 261, 'enunciado' => 'Ametralladora MG-42. La ametralladora MG-42 es un arma ideal
+            para tiro por sorpresa.', 'bloque_id' => 11],
+            ['id' => 262, 'enunciado' => 'Ametralladora MG-42. El rayado del cañón es:', 'bloque_id' => 11],
+            ['id' => 263, 'enunciado' => 'Ametralladora MG-42. Para variar la cadencia de disparo
+            utilizamos.', 'bloque_id' => 11],
+            ['id' => 264, 'enunciado' => 'Ametralladora MG-42. En caso de no producirse el disparo y si el
+            cañón está caliente habrá que esperar unos :', 'bloque_id' => 11],
+            ['id' => 265, 'enunciado' => 'Ametralladora MG-42. En el desarmado y armado de la MG-42 para
+            quitar la tapa del cajón de los mecanismos habrá que colocarla formando
+            un ángulo de.', 'bloque_id' => 11],
+            ['id' => 266, 'enunciado' => 'Ametralladora MG-42. ¿Cuál de los siguientes va unido y en su
+            extremo anterior va unido al balancín?', 'bloque_id' => 11],
+            ['id' => 267, 'enunciado' => 'Ametralladora MG-42. El extractor, rodillos de bloqueo, porta
+            percutor y percutor forman parte de…', 'bloque_id' => 11],
+            ['id' => 268, 'enunciado' => 'Ametralladora MG-42. La ametralladora MG-42 es un arma ideal
+            para todo por sorpresa.', 'bloque_id' => 11],
+            ['id' => 269, 'enunciado' => 'Ametralladora MG-42. El sector graduado del trípode de la MG-42
+            va desde…', 'bloque_id' => 11],
+            ['id' => 270, 'enunciado' => 'Ametralladora MG-42. Si decimos que es cilíndrica envolviendo la
+            boca del cañón hablamos.', 'bloque_id' => 11],
+            ['id' => 271, 'enunciado' => 'Ametralladora MG-42. La ametralladora MG-42 con trípode se
+            convierte en…', 'bloque_id' => 11],
+            ['id' => 272, 'enunciado' => 'Ametralladora MG-4 E.T. Descripción resumida de la ametralladora
+            ligera MG-4 ET.', 'bloque_id' => 11],
+            ['id' => 273, 'enunciado' => 'Ametralladora MG-4 E.T. Descripción resumida de la ametralladora
+            ligera MG-4 ET.', 'bloque_id' => 11],
+            ['id' => 274, 'enunciado' => 'Ametralladora MG-4 E.T. El arma permite el disparo en ráfagas
+            largas y cortas a blancos a una distancia de hasta.', 'bloque_id' => 11],
+            ['id' => 275, 'enunciado' => 'Ametralladora MG-4 E.T. La MG-4 es un arma completamente
+            automática.', 'bloque_id' => 11],
+            ['id' => 276, 'enunciado' => 'Ametralladora MG-4 E.T. Posee un alza para distancias al blanco u
+            objetivo de 100 metros.', 'bloque_id' => 11],
+            ['id' => 277, 'enunciado' => 'Ametralladora MG-4 E.T. La bolsa de transporte de cintas es de:', 'bloque_id' => 11],
+            ['id' => 278, 'enunciado' => 'Ametralladora MG-4 E.T. El canal de guía para el cierre se
+            encuentra:', 'bloque_id' => 11],
+            ['id' => 279, 'enunciado' => 'Ametralladora MG-4 E.T. El seguro se puede accionar:', 'bloque_id' => 11],
+            ['id' => 280, 'enunciado' => 'Ametralladora MG-4 E.T. Descripción resumida de la ametralladora
+            ligera MG-4 ET. Los elementos de seguridad están integrados en…', 'bloque_id' => 11],
+            ['id' => 281, 'enunciado' => 'Ametralladora MG-4 E.T. El cañón debe ser sustituido o enfriado,
+            después de un tiro a ráfagas continuas en secuencia rápida de unos:', 'bloque_id' => 11],
+            ['id' => 282, 'enunciado' => 'Ametralladora MG-4 E.T. El indicador de carga muestra:', 'bloque_id' => 11],
+            ['id' => 283, 'enunciado' => 'Ametralladora MG-4 E.T. El sistema de cierre es de:', 'bloque_id' => 11],
+            ['id' => 284, 'enunciado' => 'Ametralladora MG-4 E.T. Cuando exista una insuficiente presión
+            de gas del cartucho (fallo de munición), o cuando el arma no ha sido
+            rearmada del todo, el soporte del cierre queda retenido en:', 'bloque_id' => 11],
+            ['id' => 285, 'enunciado' => 'Ametralladora MG-4 E.T. Es posible la utilización de salvas.', 'bloque_id' => 11],
+            ['id' => 286, 'enunciado' => 'Ametralladora MG-4 E.T. El bloque de toma de gases con casquillo
+            de propulsión se encuentra en:', 'bloque_id' => 11],
+            ['id' => 287, 'enunciado' => 'Ametralladora MG-4 E.T. Normas de seguridad para el uso del visor
+            Trijicon en la ametralladora ligera MG-4ET.', 'bloque_id' => 11],
+            ['id' => 288, 'enunciado' => 'Granada Alambra. La envuelta de fragmentación contiene unas:', 'bloque_id' => 11],
+            ['id' => 289, 'enunciado' => 'Granada Alambra. Descripción.', 'bloque_id' => 11],
+            ['id' => 290, 'enunciado' => 'Granada Alambra. ¿Cual no corresponde a los elementos interiores
+            de seguridad?', 'bloque_id' => 11],
+            ['id' => 291, 'enunciado' => 'Granada Alambra. Definición de granada de mano.', 'bloque_id' => 11],
+            ['id' => 292, 'enunciado' => 'Granada Alambra. El retardo de seguridad de lanzamiento que
+            inhabilita el paso de energía disponible al detonadores de:', 'bloque_id' => 11],
+            ['id' => 293, 'enunciado' => 'Granada Alambra. ¿Cual no es una característica principal de la
+            granada?', 'bloque_id' => 11],
+            ['id' => 294, 'enunciado' => 'Granada Alambra. En la granada de mano si el radio de acción es
+            muy inferior al de alcance es:', 'bloque_id' => 11],
+            ['id' => 295, 'enunciado' => 'Granada Alambra. La espoleta de la granada de mano Alhambra D/
+            O es la denominada.', 'bloque_id' => 11],
+            ['id' => 296, 'enunciado' => 'Granada Alambra. La granada de mano tiene un peso de:', 'bloque_id' => 11],
+            ['id' => 297, 'enunciado' => 'Granada Alambra. Radio letal de la granada de mano Alhambra es
+            de:', 'bloque_id' => 11],
+            ['id' => 298, 'enunciado' => 'Granada Alambra. Partes de las que se componen las granadas de
+            mano.', 'bloque_id' => 11],
+            ['id' => 299, 'enunciado' => 'Granada Alambra. Las bolas de acero que se encuentran en la
+            envuelta de fragmentación, tiene un diámetro de :', 'bloque_id' => 11],
+            ['id' => 300, 'enunciado' => 'Granada Alambra. Una de las características de la granada de
+            mano se usada por.', 'bloque_id' => 11],
+            ['id' => 301, 'enunciado' => 'Granada Alambra. Clasificación de las granadas de mano:', 'bloque_id' => 11],
+            ['id' => 302, 'enunciado' => 'Granada Alambra. Espoleta de la granada de mano Alhambra.', 'bloque_id' => 11],
+            ['id' => 303, 'enunciado' => 'Granada Alambra. Una vez que la granada de mano abandona la
+            mano del lanzador, se produce la explosión de la granada de mano a los:', 'bloque_id' => 11],
+            ['id' => 304, 'enunciado' => 'Granada Alambra. Todos y cada uno de los elementos de la
+            granada de mano Alhambra tiene una vida útil superiora:', 'bloque_id' => 11],
+            ['id' => 305, 'enunciado' => 'Pistola USP compact. Pistola USP Compact. Longitud de mira.', 'bloque_id' => 11],
+            ['id' => 306, 'enunciado' => 'Pistola USP Compact. Partes del cañón.', 'bloque_id' => 11],
+            ['id' => 307, 'enunciado' => 'Pistola USP Compact. Total de seguros activos y pasivos .', 'bloque_id' => 11],
+            ['id' => 308, 'enunciado' => 'Pistola USP Compact. El armazón está fabricado en ________
+            mediante inyección en un molde, de una mezcla de plástico _________ y
+            fibra de vidrio.', 'bloque_id' => 11],
+            ['id' => 309, 'enunciado' => 'Pistola USP Compact. Seguros activos.', 'bloque_id' => 11],
+            ['id' => 310, 'enunciado' => 'Pistola USP Compact. Alcance eficaz.', 'bloque_id' => 11],
+            ['id' => 311, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            pistola USP.', 'bloque_id' => 11],
+            ['id' => 312, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 313, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 314, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 315, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 316, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 317, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 318, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 319, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 320, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 321, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 322, 'enunciado' => 'Pistola USP Compact. Características generales y técnicas de la
+            Pistola USP Compact.', 'bloque_id' => 11],
+            ['id' => 323, 'enunciado' => 'Pistola USP compact. ¿Cuál de estos no es un sistema de
+            seguridad de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 324, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes se considera un sistema
+            de seguridad pasivo de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 325, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes se considera un
+            sistema de seguridad activo de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 326, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes no
+            forma parte del armazón de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 327, 'enunciado' => 'Pistola USP compact. ¿Qué longitud tiene el cañón de la pistola
+            USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 328, 'enunciado' => 'Pistola USP compact. ¿Qué modo de disparo se produce con una
+            mayor presión sobre el disparador y el martillo en la posición de desamartillado
+            de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 329, 'enunciado' => 'Pistola USP compact. ¿Qué tipo de arma es la pistola USP
+            COMPACT?', 'bloque_id' => 11],
+            ['id' => 330, 'enunciado' => 'Pistola USP compact. ¿Cuál es el alcance eficaz de la pistola USP
+            COMPACT?', 'bloque_id' => 11],
+            ['id' => 331, 'enunciado' => 'Pistola USP compact. ¿Qué anchura tiene la empuñadura con palanca
+            de seguro de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 332, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes forma
+            parte del recuperador amortiguador de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 333, 'enunciado' => 'Pistola USP compact. ¿Cuánto es el cargador vacío de la pistola
+            USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 334, 'enunciado' => 'Pistola USP compact. ¿Cómo se el ánima del cañón de la pistola
+            USP COMPACT?.', 'bloque_id' => 11],
+            ['id' => 335, 'enunciado' => 'Pistola USP compact. ¿Cuál es la presión de prueba en recámara
+            de la pistola USP COMPACT?.', 'bloque_id' => 11],
+            ['id' => 336, 'enunciado' => 'Pistola USP compact. ¿Qué autonomía tiene la pistola USP
+            COMPACT?', 'bloque_id' => 11],
+            ['id' => 337, 'enunciado' => 'Pistola USP compact. ¿Cuánto pesa son cargador la pistola USP
+            COMPACT?', 'bloque_id' => 11],
+            ['id' => 338, 'enunciado' => 'Pistola USP compact. ¿Cuál es el calibre de la pistola USP
+            COMPACT?', 'bloque_id' => 11],
+            ['id' => 339, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes no es un indicador
+            de seguridad de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 340, 'enunciado' => 'Pistola USP compact. ¿Qué longitud tiene la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 341, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes forma
+            parte del cañón da la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 342, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes componentes no
+            forma parte del armazón de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 343, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes mecanismos no
+            forma parte de la corredera?', 'bloque_id' => 11],
+            ['id' => 344, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes mecanismos no
+            forma parte de la corredera de la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 345, 'enunciado' => 'Pistola USP compact. ¿Cuál de los siguientes no es un indicador de
+            seguridad en la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 346, 'enunciado' => 'Pistola USP compact. ¿Qué altura tiene la pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 347, 'enunciado' => 'Pistola USP compact. ¿Qué anchura tiene la corredera de la pistola
+            USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 348, 'enunciado' => 'Pistola USP compact. ¿Cuál es la velocidad inicial de la pistola
+            USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 349, 'enunciado' => 'Pistola USP compact. ¿Cuál es la capacidad del cargador de la pistola
+            USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 350, 'enunciado' => 'Pistola USP compact. ¿Cuáles son los modos de disparo de la
+            pistola USP COMPACT?', 'bloque_id' => 11],
+            ['id' => 351, 'enunciado' => 'Pistola USP compact. ¿Qué tipo de acerrojamiento tiene la pistola
+            USPCOMPACT?', 'bloque_id' => 11],
+            ['id' => 352, 'enunciado' => 'Teoría del tiro. Balística.', 'bloque_id' => 11],
+            ['id' => 353, 'enunciado' => 'Teoría del tiro. Balística interior.', 'bloque_id' => 11],
+            ['id' => 354, 'enunciado' => 'Teoría del tiro. Proyectiles macizos y de pequeño calibre o balas:', 'bloque_id' => 11],
+            ['id' => 355, 'enunciado' => 'Teoría del tiro. Cartucho de arma ligera.', 'bloque_id' => 11],
+            ['id' => 356, 'enunciado' => 'Teoría del tiro. Proyectiles huecos y con cara explosiva internas
+            granadas.', 'bloque_id' => 11],
+            ['id' => 357, 'enunciado' => 'Teoría del tiro. ¿Cuál de los siguientes o pertenece a la 4ª
+            categoría?', 'bloque_id' => 11],
+            ['id' => 358, 'enunciado' => 'Teoría del tiro. ¿Qué dos partes distinguiremos principalmente en
+            los cartuchos de armas ligeras?', 'bloque_id' => 11],
+            ['id' => 359, 'enunciado' => 'Teoría del tiro. ¿Cuál es la línea de proyección?', 'bloque_id' => 11],
+            ['id' => 360, 'enunciado' => 'Teoría del tiro. El alcance máximo es:', 'bloque_id' => 11],
+            ['id' => 361, 'enunciado' => 'Teoría del tiro. De las siguientes cual no es una clasificación del
+            tipo de granada:', 'bloque_id' => 11],
+            ['id' => 362, 'enunciado' => 'Teoría del tiro. Angulo de elevación es:', 'bloque_id' => 11],
+            ['id' => 363, 'enunciado' => 'Teoría del tiro. Según el ángulo de tiro podemos hacer tiro tenso,
+            tiro curvo, tiro vertical.', 'bloque_id' => 11],
+            ['id' => 364, 'enunciado' => 'Teoría del tiro. El ángulo de proyección es:', 'bloque_id' => 11],
+            ['id' => 365, 'enunciado' => 'Teoría del tiro. Cuando hablamos del rendimiento nos referimos a :', 'bloque_id' => 11],
+            ['id' => 366, 'enunciado' => 'Teoría del tiro. Según el terreno sobre el que se tira puede ser:', 'bloque_id' => 11],
+            ['id' => 367, 'enunciado' => 'Teoría del tiro. Según el mecanismo de tiro puede ser :', 'bloque_id' => 11],
+            ['id' => 368, 'enunciado' => 'Teoría del tiro. Hablamos de tiro preciso cuando se produce:', 'bloque_id' => 11],
+            ['id' => 369, 'enunciado' => 'Teoría del tiro. Hablamos de tiro preciso cuando se produce:', 'bloque_id' => 11],
+
+
+
+            ['id' => 370, 'enunciado' => 'Transmisiones. PNR-500. La potencia transmitida es de:', 'bloque_id' => 12],
+            ['id' => 371, 'enunciado' => 'Transmisiones. PNR-500. ¿Qué tecla debemos pulsar para borrar
+            las claves de la PNR-500?', 'bloque_id' => 12],
+            ['id' => 372, 'enunciado' => 'Transmisiones. PNR-500. El radio teléfono PNR-500, permite
+            escuchar y habla a la vez, FULL DUPLEX.', 'bloque_id' => 12],
+            ['id' => 373, 'enunciado' => 'Transmisiones. PNR-500. Es una radio para:', 'bloque_id' => 12],
+            ['id' => 374, 'enunciado' => 'Transmisiones. PNR-500. La tecla FCTN sirve para:', 'bloque_id' => 12],
+            ['id' => 375, 'enunciado' => 'Transmisiones. PNR-500. Pulsando la tecla FCTN que no podemos
+            modificar.', 'bloque_id' => 12],
+            ['id' => 376, 'enunciado' => 'Transmisiones. PNR-500. El modo VOX que opción nos da.', 'bloque_id' => 12],
+            ['id' => 377, 'enunciado' => 'Transmisiones. PNR-500. ¿Cuántos minutos le quedan
+            aproximadamente de funcionamiento a la PNR-500 cuando indica
+            BATERIA DEBIL?', 'bloque_id' => 12],
+            ['id' => 378, 'enunciado' => 'Transmisiones. PNR-500. Para averiguar el canal que tiene activado
+            la radio que tecla debemos pulsar.', 'bloque_id' => 12],
+            ['id' => 379, 'enunciado' => 'Transmisiones. PNR-500. ¿Qué tecla debemos pulsar para cambiar
+            el puesto táctico?', 'bloque_id' => 12],
+            ['id' => 380, 'enunciado' => 'Transmisiones. PNR-500. La duración de las baterías
+            aproximadamente es de:', 'bloque_id' => 12],
+            ['id' => 381, 'enunciado' => 'Transmisiones. PNR-500. De los siguientes elementos cual no
+            corresponde a los componentes del equipo.', 'bloque_id' => 12],
+            ['id' => 382, 'enunciado' => 'Transmisiones. PR4G. Que no forma parte del RT-9200.', 'bloque_id' => 12],
+            ['id' => 383, 'enunciado' => 'Transmisiones. PR4G. en la PR4G, en el conmutador de encendido
+            y selección de potencia, ¿Qué posición no existe?', 'bloque_id' => 12],
+            ['id' => 384, 'enunciado' => 'Transmisiones. PR4G. ¿Cuántas posiciones tiene el conmutador de
+            volumen?', 'bloque_id' => 12],
+            ['id' => 385, 'enunciado' => 'Transmisiones. PR4G. ¿Qué precaución no corresponde a las que
+            debemos de tener en su manejo para un mejor rendimiento y evitar
+            averías?', 'bloque_id' => 12],
+            ['id' => 386, 'enunciado' => 'Transmisiones. PR4G. ¿Cuántas posiciones tiene de volumen?', 'bloque_id' => 12],
+            ['id' => 387, 'enunciado' => 'Transmisiones. PR4G. ¿Qué diferencias físicas y mecánicas RT-
+            9200/RT-9210?', 'bloque_id' => 12],
+            ['id' => 388, 'enunciado' => 'Transmisiones. TP-6N. ¿Cuál de los siguientes elementos no
+            pertenece a la composición del equipo TP-6N?', 'bloque_id' => 12],
+            ['id' => 389, 'enunciado' => 'Transmisiones. TP-6N. El indicador luminoso de llamadas, ¿Qué
+            otra función tiene?', 'bloque_id' => 12],
+            ['id' => 390, 'enunciado' => 'Transmisiones. TP-6N. En la comprobación de líneas el indicador
+            debe encenderse en una línea en condiciones normales…', 'bloque_id' => 12],
+            ['id' => 391, 'enunciado' => 'Transmisiones. Redes de trabajo.', 'bloque_id' => 12],
+            ['id' => 392, 'enunciado' => 'Transmisiones. Cuál de las siguientes no es una regla básica de
+            seguridad de las transmisiones.', 'bloque_id' => 12],
+            ['id' => 393, 'enunciado' => 'Transmisiones. ¿Qué es una malla?', 'bloque_id' => 12],
+            ['id' => 394, 'enunciado' => 'Transmisiones. Conocimientos básicos para transmitir.', 'bloque_id' => 12],
+            ['id' => 395, 'enunciado' => 'Transmisiones. Alfabeto internacional V.', 'bloque_id' => 12],
+            ['id' => 396, 'enunciado' => 'Transmisiones. Alfabeto fonético internacional.', 'bloque_id' => 12],
+            ['id' => 397, 'enunciado' => 'Transmisiones. El grupo de fecha y hora está formado por:', 'bloque_id' => 12],
+            ['id' => 398, 'enunciado' => 'Transmisiones. IBT.', 'bloque_id' => 12],
         ]);
     }
 }
