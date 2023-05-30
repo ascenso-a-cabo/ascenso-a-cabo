@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="bg-warning text-center py-4">
+                    <div class="bg-warning text-center py-4 rounded">
                         <h1 class="text-dark">EXÁMENES</h1>
                     </div>
                     <div class="d-flex justify-content-center align-items-center py-4 bg-warning">
@@ -30,16 +30,16 @@
                         </div>
                     </div>
                     @foreach ($capitulos as $capitulo)
-                        <div class="bg-secondary text-white p-4 mb-4">
-                            <h2 class="mb-3">Capítulo: {{ $capitulo->nombre }}</h2>
+                        <div class="bg-secondary text-white p-4 my-4 text-center rounded">
+                            <h2 class="mb-3">Capítulo {{ $loop->iteration }} : {{ $capitulo->nombre }}</h2>
                             <div class="row">
                                 @foreach ($capitulo->bloques as $bloque)
                                     <div class="col-12 col-md-6 mb-4">
                                         <div class="card bg-dark text-white h-100 position-relative">
                                             <div class="card-header py-2">
-                                                <h5 class="mb-0">Bloque: {{ $bloque->nombre }}</h5>
+                                                <h5 class="mb-0">Bloque {{ $loop->iteration }} : {{ $bloque->nombre }}</h5>
                                             </div>
-                                            <div class="card-body">
+                                            <div class="card-body text-left px-4">
                                                 @foreach ($bloque->temas as $tema)
                                                     <div
                                                         class="bg-secondary-dark text-white mb-2">· {{ $tema->nombre }}</div>
@@ -47,7 +47,7 @@
                                             </div>
                                             <div
                                                 class="card-footer bg-dark text-center position-absolute bottom-0 start-0 end-0">
-                                                <a class="btn btn-warning"
+                                                <a class="btn btn-outline-warning"
                                                    href="{{ route('test.realizar', $bloque->id) }}">Realizar Test</a>
                                             </div>
                                         </div>
