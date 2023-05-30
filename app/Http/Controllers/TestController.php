@@ -15,20 +15,37 @@ class TestController extends Controller
 
      public function realizarTest($bloque)
      {
-         $preguntas = Pregunta::where('bloque_id', $bloque)->inRandomOrder()->take(50)->with('respuestas')->get();
+         $preguntas = Pregunta::where('bloque_id', $bloque)
+         ->inRandomOrder()
+         ->take(50)
+         ->with('respuestas')
+         ->get();
+
          $respuestas = Respuesta::all();
      
          return view('test', compact('preguntas', 'respuestas'));
      }
+
+     public function submitTest(Request $request)
+        {
+            $respuestasEnviadas = $request->input('respuesta');
+
+            // Lógica para procesar las respuestas enviadas
+            // ...
+
+            // Retornar una vista con los resultados
+            return view('test.resultados');
+        }
+
      
 
     public function index()
     {
         //
-        $preguntas = Pregunta::inRandomOrder()->take(50)->get();
+        /*$preguntas = Pregunta::inRandomOrder()->take(50)->get();
         $respuestas = Respuesta::all();
         
-        return view('test', compact('preguntas', 'respuestas'));
+        return view('test', compact('preguntas', 'respuestas'));*/
     }
 
     /**

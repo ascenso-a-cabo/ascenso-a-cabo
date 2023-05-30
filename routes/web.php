@@ -37,6 +37,7 @@ Route::resource('examenes', ExamenController::class)
 //RUTAS PARA LOS EXAMENES
 
 Route::get('/examenes/{tema}', [TestController::class, 'realizarTest'])->name('test.realizar');
+Route::post('/test/submit', [TestController::class, 'submit'])->name('test.submit');
 
 
 /*Route::get('/comunidad', function () {

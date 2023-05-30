@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+            <div class="bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="d-flex justify-content-center align-items-center bg-warning">
                     <h1 class="text-center text-dark">EXÁMENES</h1>
                 </div>
