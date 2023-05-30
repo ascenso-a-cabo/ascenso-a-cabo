@@ -7,10 +7,12 @@
             <img src="img/twitter20x20.png" height="20px" width="20px" /> Twiter
           </li>
           <li>
-            <img src="img/github20x20.png" height="20px" width="20px" /> GitHub
+            <img src="img/github20x20.png" height="20px" width="20px" />
+            <a href="https://github.com/ascenso-a-cabo/ascenso-a-cabo" class="text-white text-decoration-none">GitHub</a>
           </li>
           <li>
-            <img src="img/linkedin20x20.png" height="20px" width="20px" /> Linkedin
+            <img src="img/linkedin20x20.png" height="20px" width="20px" />
+            <a href="linkedin.com/in/daniel-f-valcarce" class="text-white text-decoration-none">Linkedin</a>
           </li>
         </ul>
       </div>
@@ -20,9 +22,9 @@
       <div id="recursos">
         <h3><b>Recursos</b></h3>
         <ul>
-          <li>Contacto</li>
-          <li>Convocatoria</li>
-          <li>Noticias</li>
+          <li><a href="" class="text-white text-decoration-none">Contacto</a></li>
+          <li><a href="" class="text-white text-decoration-none">Agradecimientos</a></li>
+          <li><a href="" class="text-white text-decoration-none">Noticias</a></li>
         </ul>
       </div>
     </div>

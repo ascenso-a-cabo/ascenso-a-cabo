@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Capitulo;
+use Illuminate\Support\Facades\Auth;
 
 class ExamenController extends Controller
 {
@@ -13,7 +14,9 @@ class ExamenController extends Controller
     public function index()
     {
         $capitulos = Capitulo::all();
-        return view('examenes', compact('capitulos'));
+        $user = Auth::user();
+    
+        return view('examenes', compact('capitulos', 'user'));
     }
 
     /**

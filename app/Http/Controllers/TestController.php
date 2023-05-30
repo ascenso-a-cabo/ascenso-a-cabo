@@ -29,6 +29,29 @@ class TestController extends Controller
          return view('test', compact('preguntas', 'respuestas'));
      }
 
+     public function simulacroExamen(){
+        $preguntas = Pregunta::inRandomOrder()
+        ->take(50)
+        ->with('respuestas')
+        ->get();
+
+        $respuestas = Respuesta::all();
+        
+        return view('test', compact('preguntas', 'respuestas'));
+     }
+
+     public function simulacroNegro()
+    {
+        // Obtén las 50 preguntas con más fallos
+        $preguntas = Pregunta::orderBy('fallos', 'desc')->take(50)->get();
+
+        // Obtén las respuestas correspondientes a las preguntas seleccionadas
+        $preguntaIds = $preguntas->pluck('id');
+        $respuestas = Respuesta::whereIn('pregunta_id', $preguntaIds)->get();
+
+        return view('test', compact('preguntas', 'respuestas'));
+    }
+
     public function submitTest(Request $request)
     {
         // Obtén las respuestas enviadas por el usuario desde el formulario
@@ -55,10 +78,18 @@ class TestController extends Controller
             // Calcula la nota
             if ($resultado) {
                 $notaFinal += 1; // Respuesta correcta suma 1 punto
+                // Incrementa el campo "aciertos" de la pregunta
+                $pregunta = Pregunta::find($preguntaId);
+                $pregunta->aciertos += 1;
+                $pregunta->save();
             } elseif ($respuestaId === null) {
                 // Respuesta no contestada, no suma puntos ni resta
             } else {
                 $notaFinal -= 0.25; // Respuesta incorrecta resta 0.25 puntos
+                // Incrementa el campo "fallos" de la pregunta
+                $pregunta = Pregunta::find($preguntaId);
+                $pregunta->fallos += 1;
+                $pregunta->save();
             }
         }
 
@@ -73,10 +104,12 @@ class TestController extends Controller
         // Añade uno al campo total_examenes del usuario
         $user = $request->user();
         $user->total_examenes += 1;
-        $user->save();
 
-        // Ejecuta el comando de actualizar la media de notas del usuario
-        Artisan::call('app:actualizar-estadisticas-usuarios');
+        // Calcula la nueva media de notas del usuario
+        $media = $user->notas()->avg('nota');
+        $user->media_notas = $media;
+
+        $user->save();
 
         // Renderiza la vista 'respuestas' y pasa los resultados, la nota final, las preguntas y las respuestas del usuario como datos a la vista
         return view('submit', compact('resultados', 'notaFinal', 'preguntas', 'respuestasUsuario', 'notaFinalPonderada'));

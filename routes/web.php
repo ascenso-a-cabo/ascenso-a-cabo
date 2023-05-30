@@ -40,6 +40,10 @@ Route::get('/examenes/{tema}', [TestController::class, 'realizarTest'])->name('t
     ->middleware(['auth', 'verified']);
 Route::post('/test/submit', [TestController::class, 'submitTest'])->name('test.submit')
     ->middleware(['auth', 'verified']);
+Route::get('/simulacroexamen', [TestController::class, 'simulacroExamen'])->name('test.simulacro')
+    ->middleware(['auth', 'verified']);
+Route::get('/simulacro-negro', [TestController::class, 'simulacroNegro'])->name('simulacro.negro')
+    ->middleware(['auth', 'verified']);
 
 
 /*Route::get('/comunidad', function () {
