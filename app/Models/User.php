@@ -26,6 +26,7 @@ class User extends Authenticatable
         'media_notas',
         'total_examenes',
         'provincia',
+        'rol',
     ];
 
     /**
@@ -61,4 +62,11 @@ class User extends Authenticatable
     {
         return $this->hasMany(Chirp::class);
     }
+
+    public function hasRole($role)
+    {
+        
+        return $this->role === $role;
+    }
+
 }
