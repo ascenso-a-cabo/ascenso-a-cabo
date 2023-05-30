@@ -42,7 +42,7 @@
                                             <div class="card-body">
                                                 @foreach ($bloque->temas as $tema)
                                                     <div
-                                                        class="bg-secondary-dark text-white mb-2">{{ $tema->nombre }}</div>
+                                                        class="bg-secondary-dark text-white mb-2">· {{ $tema->nombre }}</div>
                                                 @endforeach
                                             </div>
                                             <div
