@@ -16,7 +16,7 @@ return new class extends Migration
             $table->timestamps();
             $table->integer('nota');
             $table->foreignId('user_id')->constrained('users');
-            $table->foreignId('examen_id')->constrained('examenes');
+            $table->foreignId('bloque_id')->constrained('bloques');
         });
     }
 

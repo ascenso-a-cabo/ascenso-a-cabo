@@ -35,4 +35,9 @@ class Bloque extends ApiModelFunctions
     {
         return $this->hasMany(Pregunta::class);
     }
+
+    public function notas()
+    {
+        return $this->hasMany(Nota::class);
+    }
 }
