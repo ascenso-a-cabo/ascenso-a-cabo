@@ -1,48 +1,59 @@
 <x-app-layout>
     @include('layouts.navigation')
     <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="d-flex justify-content-center align-items-center bg-warning">
-                    <h1 class="text-center text-dark">EXÁMENES</h1>
-                </div>
-                <div class="d-flex justify-content-center align-items-center py-4 bg-warning">
-                    <div class="col-sm-4 d-flex justify-content-around align-items-center hover">
-                        <div class="card w-75 text-dark bg-light text-center">
-                            <h5 class="card-header">Simulacro de Examen</h5>
-                            <div class="card-body">
-                                <p class="card-text">Examen de todos los temas, de 50 preguntas que se asemeja al examen
-                                    oficial</p>
-                                <a href="#" class="btn btn-outline-dark">Realizar Simulacro</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bg-warning text-center py-4">
+                        <h1 class="text-dark">EXÁMENES</h1>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center py-4 bg-warning">
+                        <div class="col-sm-4">
+                            <div class="card text-dark bg-light text-center">
+                                <h5 class="card-header">Simulacro de Examen</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Examen de todos los temas, de 50 preguntas que se asemeja al
+                                        examen oficial</p>
+                                    <a href="#" class="btn btn-outline-dark">Realizar Simulacro</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card text-white bg-dark text-center">
+                                <h5 class="card-header">Simulacro Negro</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Examen de todos los temas, de 50 preguntas, las cuales son las
+                                        que más fallan nuestros usuarios</p>
+                                    <a href="#" class="btn btn-outline-warning">Realizar Simulacro</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 d-flex justify-content-around align-items-center hover">
-                        <div class="card w-75 text-white bg-dark text-center">
-                            <h5 class="card-header">Simulacro Negro</h5>
-                            <div class="card-body">
-                                <p class="card-text">Examen de todos los temas, de 50 preguntas, las cuales son las que
-                                    mas fallan nuestros usuarios</p>
-                                <a href="#" class="btn btn-outline-warning">Realizar Simulacro</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
                     @foreach ($capitulos as $capitulo)
-                        <div class="bg-secondary text-white">
-                            <h2>Capitulo: {{ $capitulo->nombre }}</h2>
-                            @foreach ($capitulo->bloques as $bloque)
-                                <h4>Bloque: {{ $bloque->nombre }}</h4>
-                                <ul style="list-style-type: disc;">
-                                    @foreach ($bloque->temas as $tema)
-                                        <li style="margin: 0;">{{ $tema->nombre }}</li>
-                                    @endforeach
-                                </ul>
-                                <button type="button" class="btn btn-danger"><a class="text-white"
-                                                                                href="{{ route('test.realizar', $bloque->id) }}">Realizar
-                                        Test</a></button>
-                            @endforeach
+                        <div class="bg-secondary text-white p-4 mb-4">
+                            <h2 class="mb-3">Capítulo: {{ $capitulo->nombre }}</h2>
+                            <div class="row">
+                                @foreach ($capitulo->bloques as $bloque)
+                                    <div class="col-12 col-md-6 mb-4">
+                                        <div class="card bg-dark text-white h-100 position-relative">
+                                            <div class="card-header py-2">
+                                                <h5 class="mb-0">Bloque: {{ $bloque->nombre }}</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                @foreach ($bloque->temas as $tema)
+                                                    <div
+                                                        class="bg-secondary-dark text-white mb-2">{{ $tema->nombre }}</div>
+                                                @endforeach
+                                            </div>
+                                            <div
+                                                class="card-footer bg-dark text-center position-absolute bottom-0 start-0 end-0">
+                                                <a class="btn btn-warning"
+                                                   href="{{ route('test.realizar', $bloque->id) }}">Realizar Test</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
                         </div>
                     @endforeach
                 </div>
