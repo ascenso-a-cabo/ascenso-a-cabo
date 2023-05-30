@@ -675,8 +675,7 @@ class RespuestasSeeder extends Seeder
 
             ['texto' => 'Por asignación de vacante.', 'valor' => false, 'pregunta_id' => 138],
             ['texto' => 'Por no superar la formación específica de la especialidad asignada.', 'valor' => false, 'pregunta_id' => 138],
-            ['texto' => 'Por perdida de la aptitud psicofísica necesaria para desarrollar su', 'valor' => false, 'pregunta_id' => 138],
-            ['texto' => 'especialidad.', 'valor' => false, 'pregunta_id' => 138],
+            ['texto' => 'Por perdida de la aptitud psicofísica necesaria para desarrollar su especialidad.', 'valor' => false, 'pregunta_id' => 138],
 
             ['texto' => 'A los que lleven al menos cinco años de servicios se les facilitara la promoción interna.', 'valor' => false, 'pregunta_id' => 139],
             ['texto' => 'Se les reservara al menos 80% de las plazas convocadas.', 'valor' => false, 'pregunta_id' => 139],
@@ -694,8 +693,7 @@ class RespuestasSeeder extends Seeder
 
             ['texto' => 'Se adquiere automáticamente al cumplir los 45 años y tener 20 años de servicio.', 'valor' => false, 'pregunta_id' => 142],
             ['texto' => 'Si entro con más de 27 años puede ampliar su compromiso hasta los', 'valor' => false, 'pregunta_id' => 142],
-            ['texto' => 'La condición de reservista de especial disponibilidad se mantendrá', 'valor' => false, 'pregunta_id' => 142],
-            ['texto' => 'hasta cumplir los 65 años, no siendo posible su renuncia', 'valor' => false, 'pregunta_id' => 142],
+            ['texto' => 'La condición de reservista de especial disponibilidad se mantendrá hasta cumplir los 65 años, no siendo posible su renuncia', 'valor' => false, 'pregunta_id' => 142],
 
             ['texto' => 'En situaciones de crisis, corresponde al Ministerio de Defensa, a propuesta del Consejo de Ministros, con carácter excepcional, la incorporación a las FAS de reservistas de especial disponibilidad.', 'valor' => false, 'pregunta_id' => 143],
             ['texto' => 'El Consejo de Ministros establecerá los medios y aplicara los procedimientos adecuados que permitan la incorporación de los reservistas de especial disponibilidad cuando sean activados.', 'valor' => false, 'pregunta_id' => 143],

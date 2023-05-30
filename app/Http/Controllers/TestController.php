@@ -22,6 +22,7 @@ class TestController extends Controller
          ->get();
 
          $respuestas = Respuesta::all();
+         
      
          return view('test', compact('preguntas', 'respuestas'));
      }
