@@ -68,4 +68,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+//Ruta a la pagina de agradecimientos
+
+Route::get('/agradecimientos', function () {
+    return view('agradecimientos');
+})->name('agradecimientos');
+
 require __DIR__.'/auth.php';
