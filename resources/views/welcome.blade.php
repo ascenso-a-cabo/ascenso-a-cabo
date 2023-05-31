@@ -28,9 +28,9 @@
             @auth
                 <a href="{{ url('/dashboard') }}" class="btn btn-outline-light px-4">Dashboard</a>
             @else
-                <a href="{{ route('login') }}" class="btn btn-outline-light">Log in</a>
+                <a href="{{ route('login') }}" class="btn btn-outline-light">Entrar</a>
                 @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="btn btn-outline-light">Register</a>
+                    <a href="{{ route('register') }}" class="btn btn-outline-light">Registrarse</a>
                 @endif
             @endauth
         </div>
@@ -115,7 +115,7 @@
                                 Soporte continuo
                             </div>
                         </div>
-                        <div class="d-grid"><a class="btn btn-outline-danger" href="#!">Registrarse</a></div>
+                        <div class="d-grid"><a class="btn btn-outline-danger" href="{{ route('register') }}">Registrarse</a></div>
                     </div>
                 </div>
             </div>
@@ -186,6 +186,7 @@
         padding: 10px;
         font-family: Arial, sans-serif;
         display: none;
+        z-index: 9999;
     }
 
     #cookie-banner p {

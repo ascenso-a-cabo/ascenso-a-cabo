@@ -22,9 +22,9 @@
       <div id="recursos">
         <h3><b>Recursos</b></h3>
         <ul>
-          <li><a href="" class="text-white text-decoration-none">Contacto</a></li>
+          <li><a href="https://allmylinks.com/dvalcarce93" class="text-white text-decoration-none">Contacto</a></li>
           <li><a href="{{ route('agradecimientos') }}" class="text-white text-decoration-none">Agradecimientos</a></li>
-          <li><a href="" class="text-white text-decoration-none">Noticias</a></li>
+          <li><a href="https://news.google.com/" class="text-white text-decoration-none">Noticias</a></li>
         </ul>
       </div>
     </div>

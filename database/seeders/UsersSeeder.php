@@ -20,7 +20,8 @@ class UsersSeeder extends Seeder
 
         DB::table('users')->insert([
             ['name' => 'dani', 'email' => 'dani@dani.com', 'password' => bcrypt('danidani'), 'media_notas' => 10, 'total_examenes' => 20, 'rol' => 'admin', 'provincia' => 'Madrid'],
-            ['name' => 'marc', 'email' => 'marc@marc.com', 'password' => bcrypt('marcmarc'), 'media_notas' => 10, 'total_examenes' => 7, 'rol' => 'admin', 'provincia' => 'Barcelona']
+            ['name' => 'marc', 'email' => 'marc@marc.com', 'password' => bcrypt('marcmarc'), 'media_notas' => 10, 'total_examenes' => 7, 'rol' => 'admin', 'provincia' => 'Barcelona'],
+            ['name' => 'Rafael', 'email' => 'randion@cifpfbmoll.eu', 'password' => bcrypt('Secretos2023'), 'media_notas' => 10, 'total_examenes' => 7, 'rol' => 'admin', 'provincia' => 'Baleares']
         ]);
 
         for ($i = 0; $i < 20; $i++) {

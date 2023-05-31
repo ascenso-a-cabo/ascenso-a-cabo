@@ -1,10 +1,10 @@
 <section>
     <header>
-        <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">
+        <h2 class="text-lg font-medium text-gray-100">
             {{ __('Informacion del perfil') }}
         </h2>
 
-        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+        <p class="mt-1 text-sm text-gray-100">
             {{ __("Actualiza tu informacion de perfil y direccion de E-mail.") }}
         </p>
     </header>
@@ -18,13 +18,13 @@
         @method('patch')
 
         <div>
-            <x-input-label for="name" :value="__('Nombre')" />
+            <x-input-label for="name" :value="__('Nombre')" class="text-white"/>
             <x-text-input id="name" name="name" type="text" class="mt-1 block w-full" :value="old('name', $user->name)" required autofocus autocomplete="name" />
             <x-input-error class="mt-2" :messages="$errors->get('name')" />
         </div>
 
         <div>
-            <x-input-label for="email" :value="__('E-mail')" />
+            <x-input-label for="email" :value="__('E-mail')" class="text-white"/>
             <x-text-input id="email" name="email" type="email" class="mt-1 block w-full" :value="old('email', $user->email)" required autocomplete="username" />
             <x-input-error class="mt-2" :messages="$errors->get('email')" />
 
@@ -48,7 +48,7 @@
         </div>
 
         <div>
-            <x-input-label for="provincia" :value="__('Provincia')" />
+            <x-input-label for="provincia" :value="__('Provincia')" class="text-white"/>
             <select id="provincia" name="provincia"  class="form-select mt-1 block w-full bg-primary-subtle" :value="old('provincia', $user->provincia)" required autofocus autocomplete="provincia">
                 <option value="" selected disabled>{{ $user->provincia }}</option>
                 @foreach ($provincias as $provincia)
