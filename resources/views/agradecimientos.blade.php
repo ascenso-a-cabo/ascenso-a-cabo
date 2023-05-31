@@ -21,19 +21,19 @@
         <p class="lead text-center">Quiero expresar mi agradecimiento a las siguientes personas:</p>
         <ul class="list-group list-group-flush mx-auto" style="max-width: 500px;">
             <li>
-                A Eva VG y Patricia JD por ser nuestros pilares y por darme todo su amor y apoyo
+                A Eva VG y Patricia JD por ser mis pilares y por darme todo su amor y apoyo
                 incondicional.
                 Su presencia en mi vida ha sido fundamental para enfrentar los desafíos y alcanzar mis metas.
                 Estoy infinitamente agradecido por su cariño, comprensión y sacrificio. Su amor inquebrantable
                 me impulsa a seguir adelante y ser la mejor versión de mí mismo. Gracias por estar siempre a mi lado.
             </li>
 
-            <li>A Marina OB de Marc, S quiero agradecerte de corazón por ser mi gran apoyo en mis proyectos. Tu
+            <li>A Marina OB de Marc S, quiero agradecerte de corazón por ser mi gran apoyo en mis proyectos. Tu
                 presencia y apoyo incondicional han sido fundamentales para alcanzar mis metas y superar obstáculos.
                 Tu confianza en mí y tu ánimo constante me han dado fuerzas para seguir adelante en momentos de duda. Tu
                 visión y tus ideas han enriquecido mis proyectos, aportando una perspectiva única.
             </li>
-            
+
             <li>
                 A mi compañero de proyecto por ser una parte valiosa de este viaje. Su compromiso, colaboración y
                 dedicación han sido fundamentales para el éxito de nuestro
