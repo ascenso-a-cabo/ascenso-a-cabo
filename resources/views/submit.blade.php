@@ -10,7 +10,7 @@
                 @foreach ($pregunta->respuestas as $respuesta)
                     <div class="form-check"
                          style="background-color: 
-                            {{ (isset($respuestasUsuario[$pregunta->id]) && $respuesta->id == $respuestasUsuario[$pregunta->id]) ? ($resultados[$pregunta->id] ? 'green' : 'red') : ($respuesta->valor ? 'green' : 'none') }}">
+                            {{ (isset($respuestasUsuario[$pregunta->id]) && $respuesta->id == $respuestasUsuario[$pregunta->id]) ? ($resultados[$pregunta->id] ? '#5dc460' : '#CB3234') : ($respuesta->valor ? '#5dc460' : 'none') }}">
                         <input class="form-check-input" type="radio" name="respuesta[{{ $pregunta->id }}]"
                             value="{{ $respuesta->id }}" id="{{ $respuesta->id }}"
                             {{ (isset($respuestasUsuario[$pregunta->id]) && $respuesta->id == $respuestasUsuario[$pregunta->id]) ? 'checked' : '' }}>
