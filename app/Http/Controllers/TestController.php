@@ -60,6 +60,13 @@ class TestController extends Controller
         // Obtén todas las respuestas de la base de datos
         $todasRespuestas = Respuesta::all();
 
+            // Verifica si el usuario ha respondido al menos una pregunta
+        if (empty($respuestasUsuario)) {
+            // Redirige al usuario a alguna página para mostrar un mensaje de error
+            return redirect()->route('examenes.index')->with('error', 'Debes responder al menos una pregunta.');
+        }
+
+
         // Obtén todas las preguntas relacionadas con las respuestas
         $preguntas = Pregunta::whereIn('id', array_keys($respuestasUsuario))->get();
 

@@ -694,79 +694,77 @@ class RespuestasSeeder extends Seeder
 
             ['texto' => 'En situaciones de crisis, corresponde al Ministerio de Defensa, a propuesta del Consejo de Ministros, con carácter excepcional, la incorporación a las FAS de reservistas de especial disponibilidad.', 'valor' => false, 'pregunta_id' => 143],
             ['texto' => 'El Consejo de Ministros establecerá los medios y aplicara los procedimientos adecuados que permitan la incorporación de los reservistas de especial disponibilidad cuando sean activados.', 'valor' => false, 'pregunta_id' => 143],
-            ['texto' => 'Cuando sea activado y se incorpore, recuperará la condición de militar, mantendrá el empleo y la especialidad y estará sujeto al régimen de los militares profesionales de tropa y marinería.', 'valor' => false, 'pregunta_id' => 143],
+            ['texto' => 'Cuando sea activado y se incorpore, recuperará la condición de militar, mantendrá el empleo y la especialidad y estará sujeto al régimen de los militares profesionales de tropa y marinería.', 'valor' => true, 'pregunta_id' => 143],
 
             ['texto' => 'El militar profesional ejerce funciones operativas, técnicas, logísticas y representativas.', 'valor' => false, 'pregunta_id' => 144],
             ['texto' => 'Por medio de acciones de gestión se ponen en práctica los planes establecidos actuando en cumplimiento de órdenes concretas o siguiendo procedimientos preestablecidos.', 'valor' => false, 'pregunta_id' => 144],
             ['texto' => 'La sustitución de la Fuerza de los ejércitos se aplica cuando la acción del mando alcanza su máxima y especial responsabilidad.', 'valor' => false, 'pregunta_id' => 144],
-            ['texto' => 'La acción del mando alcanza su máxima y especial responsabilidad cuando se aplica la preparación y empleo de la Fuerza de los ejércitos.', 'valor' => false, 'pregunta_id' => 144],
+            ['texto' => 'La acción del mando alcanza su máxima y especial responsabilidad cuando se aplica la preparación y empleo de la Fuerza de los ejércitos.', 'valor' => true, 'pregunta_id' => 144],
 
             ['texto' => 'El militar profesional ejerce funciones operativas, técnicas, logísticas y representativas.', 'valor' => false, 'pregunta_id' => 145],
             ['texto' => 'Por medio de acciones de gestión se ponen en práctica los planes establecidos actuando en cumplimiento de órdenes concretas o siguiendo procedimientos preestablecidos.', 'valor' => false, 'pregunta_id' => 145],
             ['texto' => 'La sustitución de la Fuerza de los ejércitos se aplica cuando la acción del mando alcanza su máxima y especial responsabilidad.', 'valor' => false, 'pregunta_id' => 145],
-            ['texto' => 'Alcanza su máxima y especial responsabilidad cuando se aplica la preparación y empleo de la Fuerza de los ejércitos.', 'valor' => false, 'pregunta_id' => 145],
+            ['texto' => 'Alcanza su máxima y especial responsabilidad cuando se aplica la preparación y empleo de la Fuerza de los ejércitos.', 'valor' => true, 'pregunta_id' => 145],
 
-            ['texto' => 'operativas, técnicas, logísticas, administrativas y docentes.', 'valor' => false, 'pregunta_id' => 146],
+            ['texto' => 'operativas, técnicas, logísticas, administrativas y docentes.', 'valor' => true, 'pregunta_id' => 146],
             ['texto' => 'operativas, técnicas, logísticas y administrativas.', 'valor' => false, 'pregunta_id' => 146],
             ['texto' => 'operativas, técnicas y logísticas.', 'valor' => false, 'pregunta_id' => 146],
 
             ['texto' => 'Se ejerce la definición de acciones y la determinación de los objetivos.', 'valor' => false, 'pregunta_id' => 147],
-            ['texto' => 'Mediante acciones de gestión se aplican los medios puestos a disposición para alcanzar unos objetivos concretos de la forma más rentable y eficiente.', 'valor' => false, 'pregunta_id' => 147],
+            ['texto' => 'Mediante acciones de gestión se aplican los medios puestos a disposición para alcanzar unos objetivos concretos de la forma más rentable y eficiente.', 'valor' => true, 'pregunta_id' => 147],
             ['texto' => 'Por medio de acciones administrativas se ponen en prácticas los planes establecidos actuando en cumplimiento de órdenes concretas o siguiendo procedimientos preestablecidos.', 'valor' => false, 'pregunta_id' => 147],
 
-            ['texto' => 'Verdadero.', 'valor' => false, 'pregunta_id' => 148],
+            ['texto' => 'Verdadero.', 'valor' => true, 'pregunta_id' => 148],
             ['texto' => 'Falso.', 'valor' => false, 'pregunta_id' => 148],
             ['texto' => 'Ninguna de las anteriores.', 'valor' => false, 'pregunta_id' => 148],
 
             ['texto' => 'Verdadero.', 'valor' => false, 'pregunta_id' => 149],
-            ['texto' => 'Falso.', 'valor' => false, 'pregunta_id' => 149],
+            ['texto' => 'Falso.', 'valor' => true, 'pregunta_id' => 149],
             ['texto' => 'Ninguna de las anteriores.', 'valor' => false, 'pregunta_id' => 149],
 
             ['texto' => 'El escalafón es el tiempo transcurrido en el primer empleo de una escala desde la fecha de su concesión.', 'valor' => false, 'pregunta_id' => 150],
             ['texto' => 'La precedencia de los militares estará determinada por la antigüedad, y a igualdad de esta, por escalafón.', 'valor' => false, 'pregunta_id' => 150],
-            ['texto' => 'En esta ley se denomina jefe al que ejerce el mando o dirección de una unidad, centro u organismo (UCO).', 'valor' => false, 'pregunta_id' => 150],
+            ['texto' => 'En esta ley se denomina jefe al que ejerce el mando o dirección de una unidad, centro u organismo (UCO).', 'valor' => true, 'pregunta_id' => 150],
 
-            ['texto' => 'El empleo honorifico se puede conceder a tras el fallecimiento.', 'valor' => false, 'pregunta_id' => 151],
+            ['texto' => 'El empleo honorifico se puede conceder a tras el fallecimiento.', 'valor' => true, 'pregunta_id' => 151],
             ['texto' => 'Serán considerados a efectos de derechos pasivos.', 'valor' => false, 'pregunta_id' => 151],
-            ['texto' => 'La incidencia para la concesión de empleos con carácter honorifico', 'valor' => false, 'pregunta_id' => 151],
-            ['texto' => 'corresponderá al jefe de la unidad.', 'valor' => false, 'pregunta_id' => 151],
+            ['texto' => 'La incidencia para la concesión de empleos con carácter honorifico corresponderá al jefe de la unidad.', 'valor' => false, 'pregunta_id' => 151],
 
-            ['texto' => 'La ceración, extinción o integración de cuerpo y escalas se efectuará por Orden Ministerial.', 'valor' => false, 'pregunta_id' => 152],
+            ['texto' => 'La ceración, extinción o integración de cuerpo y escalas se efectuará por Orden Ministerial.', 'valor' => true, 'pregunta_id' => 152],
             ['texto' => 'Los cuerpos de carácter común son para dar respuesta a necesidades generales de las FAS.', 'valor' => false, 'pregunta_id' => 152],
             ['texto' => 'Dentro de cada cuerpo puede haber una o varias escalas de oficiales.', 'valor' => false, 'pregunta_id' => 152],
 
-            ['texto' => 'Cuerpos específicos del E.T.', 'valor' => false, 'pregunta_id' => 153],
             ['texto' => 'Cuerpo Jurídico Militar del E.T.', 'valor' => false, 'pregunta_id' => 153],
             ['texto' => 'Cuerpo de Infantería de Marina del E.T.', 'valor' => false, 'pregunta_id' => 153],
-            ['texto' => 'Cuerpo de Intendencia del E.T.', 'valor' => false, 'pregunta_id' => 153],
+            ['texto' => 'Cuerpo de Intendencia del E.T.', 'valor' => true, 'pregunta_id' => 153],
  
             ['texto' => 'Cuerpo músicas.', 'valor' => false, 'pregunta_id' => 154],
             ['texto' => 'Cuerpo militar de intervención.', 'valor' => false, 'pregunta_id' => 154],
-            ['texto' => 'Cuerpo de Intendencia del E.T.', 'valor' => false, 'pregunta_id' => 154],
+            ['texto' => 'Cuerpo de Intendencia del E.T.', 'valor' => true, 'pregunta_id' => 154],
 
             ['texto' => 'A partir de determinados empleos los miembros de cada escala adaptaran o reorientaran su perfil profesional, adquiriendo una nueva especialidad.', 'valor' => false, 'pregunta_id' => 155],
-            ['texto' => 'Las especialidades se adquirirán al acceder a la escala correspondiente y realizar la formación oportuna para la obtención de la especialidad.', 'valor' => false, 'pregunta_id' => 155],
+            ['texto' => 'Las especialidades se adquirirán al acceder a la escala correspondiente y realizar la formación oportuna para la obtención de la especialidad.', 'valor' => true, 'pregunta_id' => 155],
             ['texto' => 'Podrán existir otras especialidades y aptitudes, que serán fijadas por el Ministerio de Defensa.', 'valor' => false, 'pregunta_id' => 155],
 
-            ['texto' => 'Los cometidos de su cuerpo, las facultades de su escalay especialidad y su empleo.', 'valor' => false, 'pregunta_id' => 156],
+            ['texto' => 'Los cometidos de su cuerpo, las facultades de su escalay especialidad y su empleo.', 'valor' => true, 'pregunta_id' => 156],
             ['texto' => 'Los cometidos de su cuerpo, las aptitudes adquiridas con su especialidad y el nivel académico alcanzado.', 'valor' => false, 'pregunta_id' => 156],
             ['texto' => 'Las aptitudes adquiridas con su especialidad, el nivel académico alcanzado y su empleo.', 'valor' => false, 'pregunta_id' => 156],
 
             ['texto' => 'La enseñanza en las FAS comprende la enseñanza de perfeccionamiento.', 'valor' => false, 'pregunta_id' => 157],
             ['texto' => 'Comprende la capacidad terminal del militar en su ámbito profesional, su formación continuada y la permanente actualización de sus conocimientos.', 'valor' => false, 'pregunta_id' => 157],
-            ['texto' => 'La formación está encaminada al correcto desempeño de sus cometidos y al adecuado ejercicio de sus funciones facultades.', 'valor' => false, 'pregunta_id' => 157],
+            ['texto' => 'La formación está encaminada al correcto desempeño de sus cometidos y al adecuado ejercicio de sus funciones facultades.', 'valor' => true, 'pregunta_id' => 157],
 
-            ['texto' => 'Con esta formación se encamina a los militares de tropa y marinería a que obtengan el título de técnico de formación profesional de grado medio.', 'valor' => false, 'pregunta_id' => 158],
+            ['texto' => 'Con esta formación se encamina a los militares de tropa y marinería a que obtengan el título de técnico de formación profesional de grado medio.', 'valor' => true, 'pregunta_id' => 158],
             ['texto' => 'Tienen como finalidad atender las necesidades derivadas de la organización y preparación de las unidades y de su empleo en las operaciones.', 'valor' => false, 'pregunta_id' => 158],
             ['texto' => 'Tiene como finalidad preparar al militar para la obtención de su especialidad.', 'valor' => false, 'pregunta_id' => 158],
 
             ['texto' => 'Incluye títulos del sistema educativo general y específicos militares.', 'valor' => false, 'pregunta_id' => 159],
-            ['texto' => 'Incluye los altos estudios de la defensa Nacional.', 'valor' => false, 'pregunta_id' => 159],
+            ['texto' => 'Incluye los altos estudios de la defensa Nacional.', 'valor' => true, 'pregunta_id' => 159],
             ['texto' => 'Incluye las enseñanzas que permiten reorientar la carrera.', 'valor' => false, 'pregunta_id' => 159],
 
             ['texto' => 'Se reservaran plazas para los centro docentes militares de formación para el acceso a las escalas de oficiales a los militares de tropa y marinería de los empleos de cabo y cabo 1º.', 'valor' => false, 'pregunta_id' => 160],
             ['texto' => 'Para los militares que quieran cambiar de escala no se les valorara el empleo obtenido en su escala actual.', 'valor' => false, 'pregunta_id' => 160],
-            ['texto' => 'Los procesos para el cambio de escala podrán ser con fases de enseñanza a distancia.', 'valor' => false, 'pregunta_id' => 160],
+            ['texto' => 'Los procesos para el cambio de escala podrán ser con fases de enseñanza a distancia.', 'valor' => true, 'pregunta_id' => 160],
 
             ['texto' => 'Verdadero.', 'valor' => false, 'pregunta_id' => 161],
             ['texto' => 'Falso.', 'valor' => false, 'pregunta_id' => 161],
