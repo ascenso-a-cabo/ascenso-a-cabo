@@ -10,7 +10,7 @@
         <div class="container">
             <div class="dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="bg-warning d-flex justify-content-center">
-                    <h1 class="text-dark text-center pt-3">Bienvenido: {{ Auth::user()->name }}</h1>
+                    <h1 class="text-dark text-center pt-3">Bienvenido/a: {{ Auth::user()->name }}</h1>
                 </div>
                 <div class="d-flex justify-content-around align-items-center pt-4 pb-4 bg-warning form-floating">
                     <div>

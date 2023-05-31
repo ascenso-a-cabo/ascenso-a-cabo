@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Provincia;
 
 class UserController extends Controller
 {
@@ -13,8 +14,9 @@ class UserController extends Controller
     public function index()
     {
         //
+        $provincias = Provincia::all();
         $users = User::orderByDesc('media_notas')->orderByDesc('total_examenes')->get();
-        return view('user.index', compact('users'));
+        return view('user.index', compact('users', 'provincias'));
     }
 
     /**

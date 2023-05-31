@@ -12,11 +12,21 @@
                             <p>Si dos usuarios tienen la misma nota, se ordenará primero el que más exámenes haya
                                 realizado.</p>
                             <div class="table-responsive">
+                                <div class="mb-3">
+                                    <label for="provincia" class="form-label">Filtrar por provincia:</label>
+                                    <select id="provincia" class="form-control">
+                                        <option value="">Selecciona una provincia</option>
+                                        @foreach ($provincias as $provincia)
+                                            <option value="{{ $provincia->nombre }}">{{ $provincia->nombre }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
                                 <table class="table table-striped table-bordered table-dark">
                                     <thead class="thead-dark">
                                     <tr>
                                         <th scope="col">Nº</th>
                                         <th scope="col">Nombre</th>
+                                        <th scope="col">Provincia Opos.</th>
                                         <th scope="col" class="text-center">Nº de exámenes realizados</th>
                                         <th scope="col">Nota Media</th>
                                     </tr>
@@ -29,6 +39,7 @@
                                                 <a href="{{ route('user.show', ['user' => $user->id]) }}"
                                                    class="text-white">{{ $user->name }}</a>
                                             </td>
+                                            <td>{{ $user->provincia }}</td>
                                             <td class="text-center">{{ $user->total_examenes }}</td>
                                             @if ($user->media_notas > 5)
                                                 <td class="text-success">{{ $user->media_notas }}</td>
@@ -48,3 +59,28 @@
     </div>
 </x-app-layout>
 <x-footer/>
+<script>
+// Espera a que el documento esté listo
+document.addEventListener("DOMContentLoaded", function () {
+        // Obtén el desplegable de provincias y la tabla
+        var selectProvincia = document.getElementById("provincia");
+        var tablaUsuarios = document.querySelector(".table");
+
+        // Agrega un evento de escucha al desplegable de provincias
+        selectProvincia.addEventListener("change", function () {
+            // Obtiene el valor seleccionado en el desplegable
+            var filtro = selectProvincia.value.toLowerCase().trim();
+
+            // Filtra las filas de la tabla según el valor seleccionado
+            var filas = tablaUsuarios.querySelectorAll("tbody tr");
+            filas.forEach(function (fila) {
+                var provincia = fila.querySelector("td:nth-child(3)").textContent.toLowerCase().trim();
+                if (provincia === filtro || filtro === "") {
+                    fila.style.display = "";
+                } else {
+                    fila.style.display = "none";
+                }
+            });
+        });
+    });
+</script>
