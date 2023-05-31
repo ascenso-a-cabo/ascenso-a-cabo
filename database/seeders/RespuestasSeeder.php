@@ -645,54 +645,51 @@ class RespuestasSeeder extends Seeder
             ['texto' => 'Son militares de carrera los que adquieren su condición en la escala de suboficiales o la escala de oficiales.', 'valor' => false, 'pregunta_id' => 131],
             ['texto' => 'Los militares de complemento son oficiales que establecen su relación de servicios mediante compromisos de carácter temporal.', 'valor' => true, 'pregunta_id' => 131],
 
-            ['texto' => 'Un cabo puede ser militar de carrera.', 'valor' => false, 'pregunta_id' => 132],
+            ['texto' => 'Un cabo puede ser militar de carrera.', 'valor' => true, 'pregunta_id' => 132],
             ['texto' => 'Ls extranjeros en situación de residencial legal podrán vincularse a las', 'valor' => false, 'pregunta_id' => 132],
             ['texto' => 'FAS como militares de tropa y marinería y como militares de carrera.', 'valor' => false, 'pregunta_id' => 132],
             ['texto' => 'Los reservistas, aun cuando se incorpores a las FAS, no tendrán la consideración de militar.', 'valor' => false, 'pregunta_id' => 132],
 
             ['texto' => 'Compromiso inicial, renovable hasta completar un máximo de 5 años.', 'valor' => false, 'pregunta_id' => 133],
             ['texto' => 'A la condición de permanente se podrá acceder durante la vigencia del compromiso de larga duración.', 'valor' => false, 'pregunta_id' => 133],
-            ['texto' => 'La relación de servicios profesionales con las FAS es una relación', 'valor' => false, 'pregunta_id' => 133],
-            ['texto' => 'jurídico-militar de carácter especial.', 'valor' => false, 'pregunta_id' => 133],
+            ['texto' => 'La relación de servicios profesionales con las FAS es una relación jurídico-militar de carácter especial.', 'valor' => true, 'pregunta_id' => 133],
 
             ['texto' => 'Todo militar tiene el derecho de prestar ante la banderea juramento o promesa de defender a España.', 'valor' => false, 'pregunta_id' => 134],
-            ['texto' => 'El acto de juramento o promesa ante la bandera de España será público.', 'valor' => false, 'pregunta_id' => 134],
-            ['texto' => 'El término”soldados” será el usado en la formula independiente de', 'valor' => false, 'pregunta_id' => 134],
-            ['texto' => 'quien vaya a prestar juramento promesa.', 'valor' => false, 'pregunta_id' => 134],
+            ['texto' => 'El acto de juramento o promesa ante la bandera de España será público.', 'valor' => true, 'pregunta_id' => 134],
+            ['texto' => 'El término”soldados” será el usado en la formula independiente de quien vaya a prestar juramento promesa.', 'valor' => false, 'pregunta_id' => 134],
 
-            ['texto' => 'El compromiso inicial podrá renovarse por periodos de 2 o 3 años, ajustando en todo caso la última renovación hasta alcanzar un máximo de 6 años de servicio.', 'valor' => false, 'pregunta_id' => 135],
+            ['texto' => 'El compromiso inicial podrá renovarse por periodos de 2 o 3 años, ajustando en todo caso la última renovación hasta alcanzar un máximo de 6 años de servicio.', 'valor' => true, 'pregunta_id' => 135],
             ['texto' => 'Para las renovaciones de compromiso será potestativo haber sido evaluado previamente.', 'valor' => false, 'pregunta_id' => 135],
-            ['texto' => 'Las condiciones, requisitos y procedimientos para las renovaciones de', 'valor' => false, 'pregunta_id' => 135],
-            ['texto' => 'compromiso se establecerán por el JEME.', 'valor' => false, 'pregunta_id' => 135],
+            ['texto' => 'Las condiciones, requisitos y procedimientos para las renovaciones de compromiso se establecerán por el JEME.', 'valor' => false, 'pregunta_id' => 135],
 
             ['texto' => 'Este compromiso lo podrán suscribir los que tengan más de 6 años de servicio.', 'valor' => false, 'pregunta_id' => 136],
             ['texto' => 'A los militares profesionales de tropa y marinería con este compromiso les corresponde el grupo C de clasificación de los funcionarios al servicio de las Administraciones públicas.', 'valor' => false, 'pregunta_id' => 136],
-            ['texto' => 'A partir del inicio de este compromiso se devengaran trienios, computándose a estos efectos el tiempo de servicio desde la fecha del compromiso inicial.', 'valor' => false, 'pregunta_id' => 136],
+            ['texto' => 'A partir del inicio de este compromiso se devengaran trienios, computándose a estos efectos el tiempo de servicio desde la fecha del compromiso inicial.', 'valor' => true, 'pregunta_id' => 136],
 
             ['texto' => 'La prima de servicio prestados atribuida como consecuencia de la resolución del compromiso por insuficiencia de condiciones psicofísicas será compatible con la pensión vitalicia que por esta misma causa le pudiera corresponder.', 'valor' => false, 'pregunta_id' => 137],
             ['texto' => 'Este compromiso se puede finalizar a petición propia con un preaviso de seis meses.', 'valor' => false, 'pregunta_id' => 137],
-            ['texto' => 'Los que finalicen este compromiso por accederé a la Guardia Civil y no lo completen, podrán reincorporarse.', 'valor' => false, 'pregunta_id' => 137],
+            ['texto' => 'Los que finalicen este compromiso por accederé a la Guardia Civil y no lo completen, podrán reincorporarse.', 'valor' => true, 'pregunta_id' => 137],
 
-            ['texto' => 'Por asignación de vacante.', 'valor' => false, 'pregunta_id' => 138],
+            ['texto' => 'Por asignación de vacante.', 'valor' => true, 'pregunta_id' => 138],
             ['texto' => 'Por no superar la formación específica de la especialidad asignada.', 'valor' => false, 'pregunta_id' => 138],
             ['texto' => 'Por perdida de la aptitud psicofísica necesaria para desarrollar su especialidad.', 'valor' => false, 'pregunta_id' => 138],
 
             ['texto' => 'A los que lleven al menos cinco años de servicios se les facilitara la promoción interna.', 'valor' => false, 'pregunta_id' => 139],
-            ['texto' => 'Se les reservara al menos 80% de las plazas convocadas.', 'valor' => false, 'pregunta_id' => 139],
+            ['texto' => 'Se les reservara al menos 80% de las plazas convocadas.', 'valor' => true, 'pregunta_id' => 139],
             ['texto' => 'Se les facilitara la participación en los diferentes procesos de promoción a la enseñanza militar de formación para la incorporación a las escalas de oficiales, con la reserva de plazas que establezca el Ministerio de Defensa', 'valor' => false, 'pregunta_id' => 139],
 
-            ['texto' => 'Verdadero.', 'valor' => false, 'pregunta_id' => 140],
+            ['texto' => 'Verdadero.', 'valor' => true, 'pregunta_id' => 140],
             ['texto' => 'Falso.', 'valor' => false, 'pregunta_id' => 140],
             ['texto' => 'Ninguna de las anteriores.', 'valor' => false, 'pregunta_id' => 140],
 
             ['texto' => 'Todo militar tienen derecho de prestar ante la bandera juramento o promesa de defender a España.', 'valor' => false, 'pregunta_id' => 141],
-            ['texto' => 'El acto de juramento ante la bandera de España será público.', 'valor' => false, 'pregunta_id' => 141],
+            ['texto' => 'El acto de juramento ante la bandera de España será público.', 'valor' => true, 'pregunta_id' => 141],
             ['texto' => 'El término “soldados “será el usado en la formula independiente de quien vaya a prestar juramento o promesa.', 'valor' => false, 'pregunta_id' => 141],
             ['texto' => 'El acto de juramento ante la bandera de España será privado.', 'valor' => false, 'pregunta_id' => 141],
 
 
             ['texto' => 'Se adquiere automáticamente al cumplir los 45 años y tener 20 años de servicio.', 'valor' => false, 'pregunta_id' => 142],
-            ['texto' => 'Si entro con más de 27 años puede ampliar su compromiso hasta los', 'valor' => false, 'pregunta_id' => 142],
+            ['texto' => 'Si entro con más de 27 años puede ampliar su compromiso hasta los', 'valor' => true, 'pregunta_id' => 142],
             ['texto' => 'La condición de reservista de especial disponibilidad se mantendrá hasta cumplir los 65 años, no siendo posible su renuncia', 'valor' => false, 'pregunta_id' => 142],
 
             ['texto' => 'En situaciones de crisis, corresponde al Ministerio de Defensa, a propuesta del Consejo de Ministros, con carácter excepcional, la incorporación a las FAS de reservistas de especial disponibilidad.', 'valor' => false, 'pregunta_id' => 143],
