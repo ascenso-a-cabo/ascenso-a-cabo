@@ -415,62 +415,58 @@ Al comparar los resultados obtenidos con los objetivos iniciales, se observó un
 
 En resumen, la evaluación de los resultados demostró que el proyecto obtuvo un éxito considerable. Los aspectos de UX/UI y funcionalidades mostraron mejoras significativas, superando las expectativas iniciales. Estos resultados positivos reflejan el esfuerzo y la dedicación del equipo de desarrollo en la creación de una aplicación web altamente funcional, atractiva y satisfactoria para los usuarios.
 
-## 8. Conclusiones y Trabajo Futuro
+## Conclusiones y Trabajo Futuro
 
-1. Conclusiones
+### 8.1 Conclusiones
 
 En esta sección de conclusiones, se presenta un resumen de los principales hallazgos y logros del proyecto:
 
 Durante el desarrollo y ejecución del proyecto, se lograron importantes avances y se alcanzaron diversos hitos significativos. A continuación, se destacan los principales hallazgos y logros obtenidos:
 
-1. Diseño y Experiencia de Usuario: Se realizó un enfoque centrado en el usuario, lo que permitió diseñar una interfaz intuitiva y atractiva. Los resultados demostraron una mejora notable en la experiencia de usuario, reflejada en una mayor facilidad de uso, interacción fluida y una estética visual agradable.
+#### 1. Diseño y Experiencia de Usuario: Se realizó un enfoque centrado en el usuario, lo que permitió diseñar una interfaz intuitiva y atractiva. Los resultados demostraron una mejora notable en la experiencia de usuario, reflejada en una mayor facilidad de uso, interacción fluida y una estética visual agradable.
 
-2. Funcionalidades Implementadas: Se logró desarrollar e implementar de manera exitosa todas las funcionalidades principales establecidas en los objetivos del proyecto. La aplicación web permitió a los usuarios realizar exámenes para la oposición de ascenso a cabo del Ejército de Tierra de manera efectiva, proporcionando una plataforma completa y funcional.
+#### 2. Funcionalidades Implementadas: Se logró desarrollar e implementar de manera exitosa todas las funcionalidades principales establecidas en los objetivos del proyecto. La aplicación web permitió a los usuarios realizar exámenes para la oposición de ascenso a cabo del Ejército de Tierra de manera efectiva, proporcionando una plataforma completa y funcional.
 
-3. Mejora en los Resultados Esperados: Los resultados obtenidos superaron las expectativas iniciales en términos de usabilidad, rendimiento y satisfacción del usuario. El análisis de los resultados demostró que la aplicación web cumplió con los estándares establecidos, brindando una experiencia de usuario mejorada y logrando un alto nivel de funcionalidad.
+#### 3. Mejora en los Resultados Esperados: Los resultados obtenidos superaron las expectativas iniciales en términos de usabilidad, rendimiento y satisfacción del usuario. El análisis de los resultados demostró que la aplicación web cumplió con los estándares establecidos, brindando una experiencia de usuario mejorada y logrando un alto nivel de funcionalidad.
 
-4. Aumento de la Eficiencia y Productividad: La aplicación web permitió optimizar el proceso de realización de exámenes para la oposición de ascenso a cabo. Los usuarios pudieron acceder de manera rápida y eficiente a los recursos necesarios, lo que resultó en un aumento de la productividad y una mejora en la eficiencia general del proceso de estudio.
+#### 4. Aumento de la Eficiencia y Productividad: La aplicación web permitió optimizar el proceso de realización de exámenes para la oposición de ascenso a cabo. Los usuarios pudieron acceder de manera rápida y eficiente a los recursos necesarios, lo que resultó en un aumento de la productividad y una mejora en la eficiencia general del proceso de estudio.
 
 En conclusión, el proyecto alcanzó los objetivos planteados, logrando importantes avances en el diseño, la experiencia de usuario y las funcionalidades implementadas. Los resultados obtenidos demostraron una mejora significativa en la usabilidad, rendimiento y satisfacción del usuario. La aplicación web proporcionó una plataforma efectiva para la preparación de exámenes de ascenso a cabo en el Ejército de Tierra, ofreciendo a los usuarios una herramienta completa y funcional. Estos logros reflejan el éxito del proyecto y el esfuerzo conjunto del equipo de desarrollo en la creación de una solución exitosa y satisfactoria para los usuarios.
 
-2. Limitaciones y Recomendaciones
+### 8.2 Limitaciones y Recomendaciones
 
 En el apartado de Limitaciones y Recomendaciones, se discuten las limitaciones encontradas durante el desarrollo del proyecto y se brindan recomendaciones para posibles mejoras futuras:
 
 Durante el desarrollo de la aplicación web para la preparación de exámenes de ascenso a cabo en el Ejército de Tierra, se encontraron algunas limitaciones que afectaron el alcance y la implementación del proyecto. Las principales limitaciones identificadas fueron:
 
-1. Limitación de tiempo: La falta de tiempo fue un factor determinante que afectó la realización de ciertas funcionalidades y la implementación de características adicionales. El proyecto tuvo un plazo ajustado, lo que limitó la capacidad de explorar a fondo todas las posibilidades y mejoras potenciales.
+#### 1. Limitación de tiempo: La falta de tiempo fue un factor determinante que afectó la realización de ciertas funcionalidades y la implementación de características adicionales. El proyecto tuvo un plazo ajustado, lo que limitó la capacidad de explorar a fondo todas las posibilidades y mejoras potenciales.
 
-2. Limitación en sistemas de pago y suscripciones: Debido a que el proyecto no cont
-
-aba con un marco empresarial y no estaba destinado a generar ingresos directos, no fue posible implementar un sistema de pago ni de suscripciones para acceder a funcionalidades adicionales o contenido premium. Esta limitación restringió la viabilidad de monetización del proyecto.
+#### 2. Limitación en sistemas de pago y suscripciones: Debido a que el proyecto no contaba con un marco empresarial y no estaba destinado a generar ingresos directos, no fue posible implementar un sistema de pago ni de suscripciones para acceder a funcionalidades adicionales o contenido premium. Esta limitación restringió la viabilidad de monetización del proyecto.
 
 A pesar de estas limitaciones, existen recomendaciones para futuras mejoras y desarrollos:
 
-1. Ampliar funcionalidades: Para futuras versiones, se recomienda explorar la posibilidad de incorporar nuevas funcionalidades que puedan mejorar aún más la experiencia del usuario. Esto puede incluir características adicionales, como recursos de aprendizaje adicionales, estadísticas de progreso, posibilidad de realizar exámenes personalizados, entre otros.
+##### 1. Ampliar funcionalidades: Para futuras versiones, se recomienda explorar la posibilidad de incorporar nuevas funcionalidades que puedan mejorar aún más la experiencia del usuario. Esto puede incluir características adicionales, como recursos de aprendizaje adicionales, estadísticas de progreso, posibilidad de realizar exámenes personalizados, entre otros.
 
-2. Integración con sistemas de pago: En caso de que se busque monetizar la aplicación en el futuro, se recomienda considerar la integración de un sistema de pago o suscripciones. Esto permitiría ofrecer contenido premium o funcionalidades avanzadas a los usuarios que deseen acceder a ellos.
+##### 2. Integración con sistemas de pago: En caso de que se busque monetizar la aplicación en el futuro, se recomienda considerar la integración de un sistema de pago o suscripciones. Esto permitiría ofrecer contenido premium o funcionalidades avanzadas a los usuarios que deseen acceder a ellos.
 
-3. Optimización de rendimiento: Se sugiere realizar una evaluación exhaustiva del rendimiento de la aplicación web, identificando posibles puntos de mejora y optimización. Esto puede incluir la optimización de consultas a la base de datos, mejoras en la velocidad de carga de la aplicación y la implementación de técnicas de almacenamiento en caché.
+##### 3. Optimización de rendimiento: Se sugiere realizar una evaluación exhaustiva del rendimiento de la aplicación web, identificando posibles puntos de mejora y optimización. Esto puede incluir la optimización de consultas a la base de datos, mejoras en la velocidad de carga de la aplicación y la implementación de técnicas de almacenamiento en caché.
 
-4. Obtener retroalimentación de los usuarios: Es importante recopilar comentarios y sugerencias de los usuarios para comprender sus necesidades y expectativas. La retroalimentación de los usuarios puede ser invaluable para orientar futuras mejoras y actualizaciones de la aplicación.
+##### 4. Obtener retroalimentación de los usuarios: Es importante recopilar comentarios y sugerencias de los usuarios para comprender sus necesidades y expectativas. La retroalimentación de los usuarios puede ser invaluable para orientar futuras mejoras y actualizaciones de la aplicación.
 
 En resumen, el proyecto se vio limitado principalmente por restricciones de tiempo y la falta de un marco empresarial para implementar sistemas de pago y suscripciones. Sin embargo, se brindaron recomendaciones para futuras mejoras, como la ampliación de funcionalidades, la integración de sistemas de pago, la optimización del rendimiento y la obtención de retroalimentación de los usuarios. Estas recomendaciones pueden ser consideradas en desarrollos posteriores para enriquecer aún más la aplicación y satisfacer las necesidades de los usuarios.
 
-3. Trabajo Futuro
+### 8.3 Trabajo Futuro
 
 En el apartado de Trabajo Futuro, se presentan propuestas para posibles extensiones o mejoras adicionales de la aplicación web de preparación de exámenes de ascenso a cabo en el Ejército de Tierra:
 
-1. Ampliación de contenidos: Se puede considerar la expansión del banco de preguntas y contenido disponible en la aplicación. Esto implica la creación de nuevos conjuntos de preguntas y material de estudio para abarcar un mayor rango de temas y áreas de conocimiento relevantes para la oposición de ascenso a cabo.
+#### 1. Ampliación de contenidos: Se puede considerar la expansión del banco de preguntas y contenido disponible en la aplicación. Esto implica la creación de nuevos conjuntos de preguntas y material de estudio para abarcar un mayor rango de temas y áreas de conocimiento relevantes para la oposición de ascenso a cabo.
 
-2. Personalización de exámenes: Se podría implementar la opción de generar exámenes personalizados para los usuarios. Esto permitiría a los usuarios seleccionar las áreas específicas en las que desean enfocarse, establecer un límite de tiempo personalizado y adaptar el nivel de dificultad de las preguntas a sus necesidades individuales.
+#### 2. Personalización de exámenes: Se podría implementar la opción de generar exámenes personalizados para los usuarios. Esto permitiría a los usuarios seleccionar las áreas específicas en las que desean enfocarse, establecer un límite de tiempo personalizado y adaptar el nivel de dificultad de las preguntas a sus necesidades individuales.
 
-3. Integración de recursos multimedia: Sería beneficioso incorporar recursos multimedia, como videos explicativos o material audiovisual complementario, para enriquecer el proceso de aprendizaje de los usuarios. Estos recursos pueden ayudar a mejorar la comprensión de conceptos complejos y brindar una experiencia de estudio más dinám
+#### 3. Integración de recursos multimedia: Sería beneficioso incorporar recursos multimedia, como videos explicativos o material audiovisual complementario, para enriquecer el proceso de aprendizaje de los usuarios. Estos recursos pueden ayudar a mejorar la comprensión de conceptos complejos y brindar una experiencia de estudio más dinámica.
 
-ica.
+#### 4. Implementación de un sistema de seguimiento de progreso: Se podría desarrollar una funcionalidad que permita a los usuarios realizar un seguimiento de su progreso y rendimiento a lo largo del tiempo. Esto podría incluir estadísticas detalladas sobre el rendimiento en exámenes anteriores, el tiempo empleado en cada sección y áreas de mejora identificadas.
 
-4. Implementación de un sistema de seguimiento de progreso: Se podría desarrollar una funcionalidad que permita a los usuarios realizar un seguimiento de su progreso y rendimiento a lo largo del tiempo. Esto podría incluir estadísticas detalladas sobre el rendimiento en exámenes anteriores, el tiempo empleado en cada sección y áreas de mejora identificadas.
-
-5. Adaptación para dispositivos móviles: Considerar el desarrollo de una aplicación móvil complementaria o la adaptación de la aplicación web existente para que sea completamente compatible con dispositivos móviles. Esto permitiría a los usuarios acceder a la plataforma de estudio desde sus teléfonos inteligentes o tabletas, brindando mayor flexibilidad y comodidad.
+#### 5. Adaptación para dispositivos móviles: Considerar el desarrollo de una aplicación móvil complementaria o la adaptación de la aplicación web existente para que sea completamente compatible con dispositivos móviles. Esto permitiría a los usuarios acceder a la plataforma de estudio desde sus teléfonos inteligentes o tabletas, brindando mayor flexibilidad y comodidad.
 
 Estas propuestas para trabajo futuro buscan enriquecer la aplicación web y ofrecer una experiencia de preparación de exámenes más completa y efectiva. Cada mejora adicional tiene como objetivo mejorar la usabilidad, el contenido y las funcionalidades de la aplicación, brindando a los usuarios una herramienta aún más valiosa en su proceso de preparación para la oposición de ascenso a cabo en el Ejército de Tierra.
